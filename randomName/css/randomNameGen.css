@@ -1,0 +1,24 @@
+
+body{
+	font-family: sans-serif;
+	font-size: 1.4em;
+}
+
+
+/* id rules
+--------------------*/
+#title{
+    width: 950px;
+    height: auto;
+	display: block;
+}
+
+
+#textBlock{
+    position:absolute;
+    top: 180px;
+    left: 40px;
+    width: 1000px;
+	font-size: 0.75em;
+    font-weight: normal;
+}
