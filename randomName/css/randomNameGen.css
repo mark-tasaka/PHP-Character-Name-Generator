@@ -14,11 +14,10 @@ body{
 }
 
 
-#textBlock{
+#nameBlock{
     position:absolute;
     top: 180px;
-    left: 40px;
-    width: 1000px;
-	font-size: 0.75em;
+    left: 200px;
+	font-size: 0.85em;
     font-weight: normal;
 }

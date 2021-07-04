@@ -23,18 +23,18 @@
 
 <?php
 
-include 'php/textFunctions.php';
+include 'php/nameSelect.php';
 
 
-if(isset($_POST["theParagraphs"]))
+if(isset($_POST["theNamesDisplayed"]))
 {
-    $numberOfParagraphs = $_POST["theParagraphs"];
+    $numberNames = $_POST["theNamesDisplayed"];
 
 }
 
 
-$textBlock = array();
-$textBlock = getRandomText($numberOfParagraphs);
+$nameGenerated = array();
+$nameGenerated = getName($numberNames);
 
 ?>
 
@@ -43,12 +43,12 @@ $textBlock = getRandomText($numberOfParagraphs);
 <img id="title"/>
 
    
-<span id="textBlock">
+<span id="nameBlock">
 <?php
 
-foreach($textBlock as $text)
+foreach($nameGenerated as $name)
 {
-    echo $text . '<br/><br/>';
+    echo $name . '<br/><br/>';
 }
 
 
