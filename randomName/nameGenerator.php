@@ -33,8 +33,26 @@ if(isset($_POST["theNamesDisplayed"]))
 }
 
 
+if(isset($_POST["theGivenName"]))
+{
+    $givenName = $_POST["theGivenName"];
+
+}
+
+if(isset($_POST["theSurname"]))
+{
+    $surname = $_POST["theSurname"];
+
+}
+
+if(isset($_POST["theGender"]))
+{
+    $gender = $_POST["theGender"];
+
+}
+
 $nameGenerated = array();
-$nameGenerated = getName($numberNames);
+$nameGenerated = getName($numberNames, $givenName, $surname, $gender);
 
 ?>
 
