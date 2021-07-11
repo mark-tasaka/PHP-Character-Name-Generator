@@ -29,6 +29,10 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = americanGivenNamesMale();
             }
+            else if($backgroundGiven === 3)
+            {
+                $firstName = arabicGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -49,6 +53,10 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = americanGivenNamesFemale();
             }
+            else if($backgroundGiven === 3)
+            {
+                $firstName = arabicGivenNamesFemale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -60,6 +68,10 @@ function getName($select, $originGiven, $originSurname, $sex)
         if($backgroundSurname === 0)
         {
             $lastName = africanSurnames();
+        }
+        else if($backgroundSurname === 1)
+        {
+            $lastName = arabicSurnames();
         }
         else
         {
@@ -73,6 +85,68 @@ function getName($select, $originGiven, $originSurname, $sex)
     }
 
     return $nameGroup;
+
+}
+
+function getNameDescript($originGiven, $originSurname, $sex)
+{
+    $backgroundGiven = intval($originGiven);
+    $backgroundSurname = intval($originSurname);
+    $gender = intval($sex);
+
+    if($gender === 0)
+    {
+        $theGender = " (Male) ";
+    }
+    else
+    {
+        $theGender = " (Female)";
+    }
+
+    $firstName = "";
+    $lastName = "";
+
+    switch($backgroundGiven)
+    {
+        case 0:
+        $firstName = "African";
+        break;
+        
+        case 1:
+        $firstName = "African-American";
+        break;
+        
+        case 2:
+        $firstName = "American";
+        break;
+        
+        case 3:
+        $firstName = "Arabic";
+        break;
+
+        default:
+        $firstName = "99999999";
+
+    }
+    
+
+    switch($backgroundSurname)
+    {
+        case 0:
+        $lastName = "African";
+        break;
+
+        case 1:
+        $lastName = "Arabic";
+        break;
+        
+        default:
+        $lastName = "99999999";
+
+    }
+
+    return 'Given Name: ' . $firstName . $theGender . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last Name: ' . $lastName;
+    
 
 }
 

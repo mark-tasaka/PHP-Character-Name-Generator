@@ -45,4 +45,19 @@ function americanGivenNamesFemale()
 
 
 
+function arabicGivenNamesFemale()
+{
+    $giveNames = array ('Abia', 'Afra', 'Ah lam', 'Aisha', 'Akilah', 'Alima', 'Aliye', 'Alyssa', 'Amber', 'Amina', 'Anan', 'Anara', 'Aneesa', 'Anisa', 'Ara', 'Ayasha', 'Azalea', 'Bashira', 'Basimah', 'Bibi', 'Cala', 'Chaka', 'Debbani', 'Duaa', 'Emani', 'Fatima', 'Ghada', 'Habiba', 'Halima', 'Haya', 'Hayfa', 'Jamila', 'Janan', 'Jarita', 'Kadejah', 'Kadin', 'Kahlilia', 'Kalea', 'Kaleigh', 'Kalila', 'Kaliyah', 'Kalyn', 'Kamila', 'Kamilah', 'Karida', 'Karima', 'Kayley', 'Kedma', 'Khadijah', 'Khalidah', 'Laela', 'Laila', 'Lakia', 'Laleh', 'Lama', 'Lamees', 'Lamis', 'Lamya', 'Leetefa', 'Leila', 'Lila', 'Lilah', 'Lilith', 'Lula', 'Mahala', 'Mahalath', 'Mahubeh', 'Maimun', 'Maja', 'Maliha', 'Malika', 'Manar', 'Manoush', 'Marta', 'Matana', 'Maysa', 'Mehri', 'Melika', 'Mina', 'Mona', 'Mouna', 'Muna', 'Muriel', 'Myiesha', 'Nadda', 'Nadira', 'Nafeeza', 'Nahid', 'Naimah', 'Natara', 'Navila', 'Nawar', 'Nayely', 'Nazirah', 'Nekia', 'Nenet', 'Nimah', 'Noura', 'Noya', 'Nura', 'Oma', 'Omaira', 'Qadira', 'Qamra', 'Qatai', 'Qitarah', 'Qubilah', 'Rabab', 'Rabiah', 'Raja', 'Rida', 'Rihana', 'Rukan', 'Saamiya', 'Sabiha', 'Sabirah', 'Sabra', 'Sadah', 'Sadira', 'Safa', 'Sahara', 'Saida', 'Saima', 'Sakinah', 'Saleema', 'Salimah', 'Salwa', 'Samiah', 'Samira', 'Samirah', 'Samma', 'Saree', 'Selima', 'Shakira', 'Shamara', 'Shammara', 'Siham', 'Soraya', 'Souzan', 'Sumayah', 'Sumehra', 'Taahira', 'Tabassum', 'Tahirah', 'Takia', 'Tameka', 'Taraneh', 'Tarja', 'Thana', 'Thara', 'Thuraya', 'Ulima', 'Umm', 'Unaiza', 'Vega', 'Wafa', 'Waheeda', 'Waja', 'Walada', 'Walida', 'Widjan', 'Xaviera', 'Yaminah', 'Yesenia', 'Yusra', 'Zaafirah', 'Zafaran', 'Zafina', 'Zahara', 'Zahidah', 'Zahira', 'Zahra', 'Zahwah', 'Zaida', 'Zaina', 'Zaira', 'Zane', 'Zanubiya', 'Zaray', 'Zaria', 'Zarifa', 'Zarola', 'Zay', 'Zayna', 'Zenda', 'Zuleika', 'Zulema'    
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
 ?>

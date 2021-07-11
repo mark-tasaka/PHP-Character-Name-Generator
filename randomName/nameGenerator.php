@@ -54,26 +54,82 @@ if(isset($_POST["theGender"]))
 $nameGenerated = array();
 $nameGenerated = getName($numberNames, $givenName, $surname, $gender);
 
+$nameGeneratedCol1 = array();
+$nameGeneratedCol2 = array();
+
+$nameCount = count($nameGenerated);
+
+if($nameCount >= 20)
+{
+    $nameGeneratedCol1 = array_slice($nameGenerated, 0, ($nameCount/2));
+    $nameGeneratedCol2 = array_slice($nameGenerated, ($nameCount/2));
+}
+
+$nameDescript = getNameDescript($givenName, $surname, $gender);
+
+
+
 ?>
 
 
 
 <img id="title"/>
 
+
+<span id="nameInformation">
+<?php
+echo $nameDescript;
+
+?>
+</span>
+
    
 <span id="nameBlock">
 <?php
 
+if($nameCount >= 20)
+{
+    foreach($nameGeneratedCol1 as $name)
+    {
+        echo $name . '<br/><br/>';
+    }
+
+}
+else
+{
+    foreach($nameGenerated as $name)
+    {
+        echo $name . '<br/><br/>';
+    }
+}
+
+
+/*
 foreach($nameGenerated as $name)
 {
     echo $name . '<br/><br/>';
-}
+}*/
 
 
 ?>
 </span>
            
+   
+<span id="nameBlock2">
+<?php
 
+if($nameCount >= 20)
+{
+    foreach($nameGeneratedCol2 as $name)
+    {
+        echo $name . '<br/><br/>';
+    }
+
+}
+
+?>
+</span>
+           
 
 <script>
       

@@ -40,6 +40,19 @@ function americanGivenNamesMale()
     
 }
 
+function arabicGivenNamesMale()
+{
+    $giveNames = array ('Aaron', 'Abbott', 'Abdulaziz', 'Abuna', 'Adalai', 'Adham', 'Ahmad', 'Akbar', 'Al-Ashab', 'Ali', 'Altair', 'Amal', 'Amaros', 'Amir', 'Ankhhaf', 'Ara', 'Arash', 'Arslan', 'Asad', 'Azad', 'Azeem', 'Badr', 'Basil', 'Basim', 'Borak', 'Boutros', 'Coman', 'Fahd', 'Faisal', 'Fakih', 'Faraz', 'Fatin', 'Ferran', 'Gamal', 'Ghadir', 'Ghazi', 'Guadalupe', 'Habib', 'Haddad', 'Hadi', 'Hafez', 'Haidar', 'Hakeem', 'Hamal', 'Hamid', 'Hamza', 'Harsh', 'Harun', 'Hasan', 'Hormoz', 'Hussain', 'Ibrahim', 'Ilias', 'Imad', 'Isam', 'Jabir', 'Jakeem', 'Jaleel', 'Jawhar', 'Jericho', 'Juma', 'Kadar', 'Kadin', 'Kadir', 'Kahil', 'Kalb', 'Kalil', 'Kamil', 'Kardal', 'Kareem', 'Karif', 'Kaseem', 'Kasib', 'Kateb', 'Kaul', 'Kedar', 'Khairi', 'Khalid', 'Khoury', 'Lateef', 'Leron', 'Mahdi', 'Malcom', 'Malik', 'Mansour', 'Mansur', 'Masoud', 'Mohamed', 'Mohsen', 'Moroni', 'Muhammad', 'Mumtaz', 'Munir', 'Mustafa', 'Nabil', 'Naji', 'Najib', 'Nasim', 'Nasser', 'Nassir', 'Numa', 'Nuri', 'Oma', 'Omar', 'Onslow', 'Osama', 'Osman', 'Qabil', 'Qadim', 'Qadir', 'Qamar', 'Qasim', 'Quasim', 'Qudamah', 'Qusay', 'Raashid', 'Radwan', 'Rahul', 'Rajeev', 'Ramadan', 'Rami', 'Rashaan', 'Rehan', 'Rigel', 'Rimon', 'Riyad', 'Saddam', 'Said', 'Samien', 'Sammon', 'Seif', 'Shadrach', 'Shah', 'Shakar', 'Shakil', 'Shakir', 'Sharif', 'Shunnar', 'Tahir', 'Tamir', 'Tariq', 'Thabit', 'Ubadah', 'Umar', 'Umher', 'Usaid', 'Usamah', 'Uthman', 'Utt', 'Vega', 'Wahkan', 'Waleed', 'Waqar', 'Waseem', 'Wasim', 'Xavier', 'Yahya', 'Yasar', 'Yasin', 'Yasir', 'Yazid', 'Yunis', 'Yusef', 'Zaki', 'Zane', 'Zayd', 'Zayn', 'Zeke', 'Zimraan', 'Zircon', 'Zuhayr'
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
 
 
 ?>
