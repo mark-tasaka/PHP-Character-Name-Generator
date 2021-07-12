@@ -68,7 +68,6 @@ if($nameCount >= 20)
 $nameDescript = getNameDescript($givenName, $surname, $gender);
 
 
-
 ?>
 
 
@@ -103,12 +102,6 @@ else
     }
 }
 
-
-/*
-foreach($nameGenerated as $name)
-{
-    echo $name . '<br/><br/>';
-}*/
 
 
 ?>

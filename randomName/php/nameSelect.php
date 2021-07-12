@@ -73,6 +73,22 @@ function getName($select, $originGiven, $originSurname, $sex)
         {
             $lastName = arabicSurnames();
         }
+        else if($backgroundSurname === 2)
+        {
+            $lastName = armenianSurnames();
+        }
+        else if($backgroundSurname === 3)
+        {
+            $lastName = catalanSurnames();
+        }
+        else if($backgroundSurname === 4)
+        {
+            $lastName = chineseSurnames();
+        }
+        else if($backgroundSurname === 5)
+        {
+            $lastName = cornishSurnames();
+        }
         else
         {
             $lastName = "9999999999";
@@ -123,6 +139,14 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 3:
         $firstName = "Arabic";
         break;
+        
+        case 4:
+        $lastName = "Chinese";
+        break;
+
+        case 5:
+        $lastName = "Cornish";
+        break;
 
         default:
         $firstName = "99999999";
@@ -139,7 +163,23 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 1:
         $lastName = "Arabic";
         break;
+
+        case 2:
+        $lastName = "Armenian";
+        break;
+
+        case 3:
+        $lastName = "Catalan";
+        break;
         
+        case 4:
+        $lastName = "Chinese";
+        break;
+
+        case 5:
+        $lastName = "Cornish";
+        break;
+
         default:
         $lastName = "99999999";
 
