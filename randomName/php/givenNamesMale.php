@@ -53,6 +53,33 @@ function arabicGivenNamesMale()
     
 }
 
+function armenianGivenNamesMale()
+{
+    $giveNames = array ("Nishan", "Ohanna", "Vahe", "Vartan", "Yervant" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function celticGivenNamesMale()
+{
+    $giveNames = array ("Afton", "Ahearn", "Annan", "Fallon", "Finley", "Kearney", "Keary", "Kegan", "Keir", "Kendall", "Mannix", "Marmaduke", "Melvin", "Merlin", "Murray", "Perth", "Ronan", "Sean", "Tadc", "Tegan", "Tiernan", "Torin", "Tuathal", "Ultan", "Vaughan" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
 
 
 ?>

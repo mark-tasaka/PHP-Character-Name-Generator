@@ -59,5 +59,32 @@ function arabicGivenNamesFemale()
 }
 
 
+function armenianGivenNamesFemale()
+{
+    $giveNames = array ("Erato", "Karyan", "Keran", "Lucine", "Ohanna", "Seda", "Siran", "Siroun", "Sirvat", "Taleen", "Taline", "Ziazan"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function celticGivenNamesFemale()
+{
+    $giveNames = array ("Fallon", "Flannery", "Kaie", "Kaitlyn", "Kassidy", "Kathleen", "Keena", "Keir", "Keira", "Keita", "Kendall", "Kenna", "Kera", "Kern", "Kiara", "Kirra", "Kylee", "Lachlan", "Lorna", "Maeve", "Malise", "Morgance", "Morgandy", "Nonnita", "Nuala", "Raelin", "Rhonda", "Saoirse", "Saraid", "Seanna", "Shela", "Shylah", "Tara", "Teranika", "Tieve", "Treasa","Treva"  
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
 
 ?>
