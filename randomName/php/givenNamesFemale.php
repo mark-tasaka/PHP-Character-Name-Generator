@@ -75,7 +75,88 @@ function armenianGivenNamesFemale()
 
 function celticGivenNamesFemale()
 {
-    $giveNames = array ("Fallon", "Flannery", "Kaie", "Kaitlyn", "Kassidy", "Kathleen", "Keena", "Keir", "Keira", "Keita", "Kendall", "Kenna", "Kera", "Kern", "Kiara", "Kirra", "Kylee", "Lachlan", "Lorna", "Maeve", "Malise", "Morgance", "Morgandy", "Nonnita", "Nuala", "Raelin", "Rhonda", "Saoirse", "Saraid", "Seanna", "Shela", "Shylah", "Tara", "Teranika", "Tieve", "Treasa","Treva"  
+    $giveNames = array ("Fallon", "Flannery", "Kaie", "Kaitlyn", "Kassidy", "Kathleen", "Keena", "Keir", "Keira", "Keita", "Kendall", "Kenna", "Kera", "Kern", "Kiara", "Kirra", "Kylee", "Lachlan", "Lorna", "Maeve", "Malise", "Morgance", "Morgandy", "Nonnita", "Nuala", "Raelin", "Rhonda", "Saoirse", "Saraid", "Seanna", "Shela", "Shylah", "Tara", "Teranika", "Tieve", "Treasa", "Treva"  
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function chineseGivenNamesFemale()
+{
+    $giveNames = array ("Ah lam", "An", "Bao", "Chen", "Chen-chio", "Chen-tao", "Chow", "Chu hua", "Chun", "Chyou", "Da-Shin", "Da-xia", "Fai", "Fang", "Fang hua", "Genji", "Guanyin", "Hua", "Hui fang", "Jing Wei", "Jun", "Kimora", "Le", "Lee", "Lei", "Li", "Li Hua", "Li Mei", "Li Ming", "Lian", "Lien", "Lin", "Ling", "Lixue", "Mee", "Mei", "Mingmei", "Quan", "Shu Fang", "Ting", "Ushi", "Xiang", "Xiao-Niao", "Xiao-Xing", "Xin", "Xiu Mei", "Yin", "Yu", "Zan", "Zhengqiu", "Zhi", "Zhijuan", "Zi"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function czechGivenNamesFemale()
+{
+    $giveNames = array ("Bela", "Kalene", "Katarzyna", "Krista", "Krysta", "Marjeta", "Nadezda", "Pribislava", "Rickena", "Ryba", "Virsila", "Vondra", "Zdenek", "Zelenka", "Zuza"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function danishGivenNamesFemale()
+{
+    $giveNames = array ("Dagmar", "Madja", "Saffi", "Semine"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function dutchGivenNamesFemale()
+{
+    $giveNames = array ("Brandie", "Haven", "Hester", "Kaatje", "Kalie", "Liannaka", "Lieneke", "Lonikie", "Nelleke", "Schuyler", "Tryne", "Van"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function egyptianGivenNamesFemale()
+{
+    $giveNames = array ( "Chione", "Femi", "Hekenu", "Hekt", "Icess", "Kanika", "Khety", "Lapis", "Mariasha", "Nakia", "Nashwa", "Nebta", "Neferu", "Neith", "Nile", "Nubia", "Ramla", "Rennefer", "Sabola", "Sagira", "Sahirah", "Salama", "Sanura", "Suma", "Tauret", "Tetisheri" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function englishGivenNamesFemale()
+{
+
+    $giveNames = array (  "Addison", "Alivia", "Allaya", "Amarie", "Amaris", "Annabeth", "Annalynn", "Araminta", "Ardys", "Ashland", "Avery", "Bedegrayne", "Bernadette", "Billie", "Birdee", "Bliss", "Brice", "Brittany", "Bryony", "Cameo", "Carol", "Chalee", "Christy", "Corky", "Cotovatre", "Courage", "Daelen", "Dana", "Darnell", "Dawn", "Delsie", "Denita", "Devon", "Devona", "Diamond", "Divinity", "Duff", "Dustin", "Dusty", "Ellen", "Eppie", "Evelyn", "Everilda", "Falynn", "Fanny", "Faren", "Freedom", "Gala", "Galen", "Gardenia", " Germain", "Gig", "Gilda", "Giselle", "Githa", "Haiden", "Halston", "Heather", "Henna", "Honey", "Iblis", "Idalis", "Ilsa", "Jersey", "Jette", "Jill", "Jo Beth", "Joanna", "Kachelle", "Kade", "Kady", "Kaela", "Kalyn", "Kandice", "Karrie", "Karyn", "Katiuscia", "Kempley", "Kenda", "Kennice", "Kenyon", "Kiandra", "Kimber", "Kimn", "Kinsey", "Kipling", "Kipp", "Kismet", "Kolton", "Kordell", "Kortney", "Kourtney", "Kristal", "Kylar", "Ladawn", "Ladye", "Lainey", "Lajerrica", "Lake", "Lalisa", " Landen", "Landon", "Landry", "Laney", "Langley", "Lanna", "Laquetta", "Lari", "Lark", "Laurel", "Lavender", "Leane", "LeAnn", "Leanna", "Leanne", "Leanore", "Lee", "Leeann", "Leighanna", "Lexie", "Lexis", "Liberty", "Liliana", "Lillian", "Lindley", "Linne", "Liora", "Lisabet", "Liz", "Lizette", "Lona", "London", "Loni", "Lorena", "Loretta", "Lovette", "Lynde", "Lyndon", "Lyndsay", "Lynette", "Lynley", "Lynna", "Lynton", "Mada", "Maddox", "Madison", "Mae", "Maggie", "Mahogany", "Maia", " Maitane", "Maitland", "Malachite", "Mamie", "Manhattan", "Maridel", "Marla", "Marley", "Marliss", "Maud", "May", "Merleen", "Mersadize", "Mildred", "Milissa", "Millicent", "Mily", "Mopsa", "Mykala", "Nan", "Nautica", "Nelda", "Niki", "Nikole", "Nimue", "Nineve", "Norina", "Ofa", "Palmer", "Pansy", "Paris", "Patience", "Patricia", "Peony", "Petunia", "Pixie", "Pleasance", "Polly", "Primrose", "Princell", "Providence", "Purity", "Quanah", "Queena", "Quella", "Quinci", "Rae", "Rainbow", "Rainelle", "Raleigh", " Ralphina", "Randi", "Raven", "Rayelle", "Rea", "Remington", "Richelle", "Ripley", "Roberta", "Robin", "Rosemary", "Rowan", "Rumer", "Ryesen", "Sable", "Sadie", "Saffron", "Saga", "Saige", "Salal", "Salia", "Sandora", "Sebille", "Sebrina", "Selby", "Serenity", "Shae", "Shandy", "Shanice", "Sharman", "Shelbi", "Sheldon", "Shelley", "Sheridan", "Sherill", "Sheryl", "Sheyla", "Shirley", "Shirlyn", "Silver", "Skyla", "Skylar", "Sorilbran", "Sparrow", "Spring", "Starleen", "Stockard", "Storm", "Sudie", "Summer", " Sunniva", "Suzana", "Symphony", "Tacey", "Tahnee", "Taite", "Talon", "Tambre", "Tamia", "Taniya", "Tanner", "Tanzi", "Taria", "Tate", "Tatum", "Tawnie", "Taya", "Tayla", "Taylor", "Tayna", "Teddi", "Tena", "Tera", "Teri", "Teryl", "Thistle", "Timotha", "Tinble", "Tosha", "Totie", "Traci", "Tru", "Trudie", "Trudy", "Tryamon", "Tuesday", "Twila", "Twyla", "Tyne", "Udele", "Unity", "Vail", "Vala", "Velvet", "Venetta", "Walker", "Wallis", "Waneta", "Waverly", "Wendy", " Weslee", "Whitley", "Whitney", "Whoopi", "Wilda", "Wilfreda", "Willow", "Wilona", "Winifred", "Winsome", "Winter", "Wisdom", "Wrenn", "Yale", "Yardley", "Yeardley", "Yedda", "Young", "Ysolde", "Zadie", "Zanda", "Zavannah", "Zavia", "Zeolia", "Zinnia" 
     );
 
     $select = rand(0, (count($giveNames) - 1) );

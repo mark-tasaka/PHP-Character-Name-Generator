@@ -41,6 +41,30 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = celticGivenNamesMale();
             }
+            else if($backgroundGiven === 6)
+            {
+                $firstName = chineseGivenNamesMale();
+            }
+            else if($backgroundGiven === 7)
+            {
+                $firstName = czechGivenNamesMale();
+            }
+            else if($backgroundGiven === 8)
+            {
+                $firstName = danishGivenNamesMale();
+            }
+            else if($backgroundGiven === 9)
+            {
+                $firstName = dutchGivenNamesMale();
+            }
+            else if($backgroundGiven === 10)
+            {
+                $firstName = egyptianGivenNamesMale();
+            }
+            else if($backgroundGiven === 11)
+            {
+                $firstName = englishGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -72,6 +96,30 @@ function getName($select, $originGiven, $originSurname, $sex)
             else if($backgroundGiven === 5)
             {
                 $firstName = celticGivenNamesFemale();
+            }
+            else if($backgroundGiven === 6)
+            {
+                $firstName = chineseGivenNamesFemale();
+            }
+            else if($backgroundGiven === 7)
+            {
+                $firstName = czechGivenNamesFemale();
+            }
+            else if($backgroundGiven === 8)
+            {
+                $firstName = danishGivenNamesFemale();
+            }
+            else if($backgroundGiven === 9)
+            {
+                $firstName = dutchGivenNamesFemale();
+            }
+            else if($backgroundGiven === 10)
+            {
+                $firstName = egyptianGivenNamesFemale();
+            }
+            else if($backgroundGiven === 11)
+            {
+                $firstName = englishGivenNamesFemale();
             }
             else
             {
@@ -112,6 +160,14 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 7)
         {
             $lastName = danishSurnames();
+        }
+        else if($backgroundSurname === 8)
+        {
+            $lastName = dutchSurnames();
+        }
+        else if($backgroundSurname === 9)
+        {
+            $lastName = englishSurnames();
         }
         else
         {
@@ -171,8 +227,30 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 5:
         $firstName = "Celtic";
         break;
-        
 
+        case 6:
+        $firstName = "Chinese";
+        break;
+
+        case 7:
+        $firstName = "Czechoslovakian";
+        break;
+        
+        case 8:
+        $firstName = "Danish";
+        break;
+        
+        case 9:
+            $firstName = "Dutch";
+            break;
+        
+        case 10:
+           $firstName = "Egyptian";
+            break;
+
+        case 11:
+           $firstName = "English";
+          break;
 
 
         default:
@@ -208,11 +286,19 @@ function getNameDescript($originGiven, $originSurname, $sex)
         break;
 
         case 6:
-        $lastName = "Czech";
+        $lastName = "Czechoslovakian";
         break;
 
         case 7:
         $lastName = "Danish";
+        break;
+
+        case 8:
+        $lastName = "Dutch";
+        break;
+
+        case 9:
+        $lastName = "English";
         break;
 
         default:

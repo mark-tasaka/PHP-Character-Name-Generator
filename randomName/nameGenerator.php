@@ -67,11 +67,14 @@ if($nameCount >= 20)
 
 $nameDescript = getNameDescript($givenName, $surname, $gender);
 
-/*
-$lastName = array();
+
+$lastName = array(
+    
+);
 
 $lastName2 = array_unique($lastName);
-*/
+
+
 ?>
 
 
@@ -109,10 +112,8 @@ else
 /*
 foreach($lastName2 as $name)
 {
-    echo "'" . $name . "', <br/>";
+    echo "\"" . $name . "\", <br/>";
 }*/
-
-
 
 ?>
 </span>
