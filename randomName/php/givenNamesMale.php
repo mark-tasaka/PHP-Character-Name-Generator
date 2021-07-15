@@ -163,4 +163,62 @@ function englishGivenNamesMale()
 
 
 
+function finnishGivenNamesMale()
+{
+    $giveNames = array ("Juhani", "Jussi", "Kevat", "Miko", "Mustanen", "Vaino" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function frenchGivenNamesMale()
+{
+    $giveNames = array ( "Aleron", "Algernon", "Ames", "Amiens", "Aramis", "Audric", "Beau", "Blaise", "Bonar", "Boniface", "Boyce", "Briar", "Bruce", "Byron", "Cabal", "Cade", "Campbell", "Canaan", "Canon", "Carolus", "Carvell", "Chainey", "Chevy", "Ciel", "Circinus", "Colar", "Colville", "Courvoisier", "Coyne", "Dabney", "Dashiell", "Dax", "Delano", "Demont", "Destin", "Didier", "Dior", "Donatien", "Etienne", "Fabron", "Ferrand", "Franchot", "Francois", "Frasier", "Gage", "Garen", "Gareth", "Garland", "Garner", "Garrison", " Gaston", "Gaylord", "Gerald", "Germain", "Geron", "Giles", "Glanville", "Gower", "Granger", "Grant", "Granville", "Guy", "Hackett", "Hello", "Holland", "Honore", "Jacques", "Jasper", "Javier", "Jean", "Jemond", "Jesper", "Labaron", "Lance", "Landry", "Laramie", "Laron", "Larrimore", "Launcelot", "Laurent", "Leggett", "Leverett", "Lionel", "Luc", "Mallory", "Marcel", "Mardian", "Marin", "Marshall", "Marvel", "Mason", "Merrill", "Montague", "Montgomery", "Montrell", "Montrose", "Mortimer", "Nazaire", "Neville", "Noel", " Odil", "Odilon", "Odo", "Olier", "Oliver", "Olympe", "Orane", "Orleans", "Orson", "Orville", "Ouida", "Page", "Paris", "Pascal", "Percy", "Pernell", "Pierre", "Platt", "Porter", "Quincy", "Rance", "Ranger", "Raul", "Ray", "Raynard", "Remi", "Romain", "Ross", "Royal", "Rupert", "Rush", "Russel", "Saber", "Sargent", "Satch", "Senior", "Sennett", "Sergeant", "Severin", "Seymour", "Sezni", "Sid", "Similien", "Sinclair", "Sinjon", "Sorrel", "Sumner", "Talbot", "Telford", "Tenenan", " Thibaud", "Travis", "Tremeur", "Tugdual", "Tujan", "Turiau", "Tyson", "Umber", "Vachel", "Valeray", "Varden", "Varil", "Varocher", "Verdun", "Vere", "Verity", "Vermont", "Vernon", "Verrier", "Verrill", "Villard", "Villiers", "Xebec", "Yannick" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function gaelicGivenNamesMale()
+{
+    $giveNames = array ( "Alan", "Angus", "Blaan", "Conan", "Fagan", "Kade", "Keefe", "Keegan", "Keeland", "Keenan", "Kennedy", "Kenyon", "Kermit", "Kern", "Kerry", "Kevin", "Kieran", "Kinnel", "Lawler", "Lee", "Lennon", "Lon", "Mackenzie", "Neal", "Parlan", "Phelan", "Regan", "Renny", "Riley", "Riordan", "Rogan", "Rooney", "Rory", "Ryan", "Seamus", "Senach", "Sheehan", "Slevin", "Sloan", "Sullivan", "Sully", "Sweeny", "Tee" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function germanGivenNamesMale()
+{
+    $giveNames = array ( "Abelard", "Adie", "Adler", "Adolph", "Alaric", "Albert", "Albrecht", "Alger", "Ancel", "Arland", "Armand", "Arnold", "Avicus", "Baldwin", "Baltasar", "Baron", "Bergen", "Bernard", "Bernstein", "Bertram", "Bingham", "Bogart", "Brandeis", "Bronson", "Bud", "Burke", "Burle", "Carsten", "Clay", "Clovis", "Colbert", "Dagobert", "Dalbert", "Dale", "Derek", "Dewitt", "Dian", "Dieter", "Dietrich", "Dolf", "Drake", "Dutch", "Eberhard", "Egmont", "Elbert", "Emery", "Ethelred", "Everett", "Falk", "Ferdinand", " Franz", "Frederick", "Fremont", "Fritz", "Gary", "Geert", "Geoffrey", "Gerlac", "Gilbert", "Godfrey", "Hagan", "Hahn", "Hammet", "Harbin", "Harlan", "Harry", "Heinrich", "Heller", "Henry", "Herbert", "Herman", "Hernan", "Hershel", "Hildebrand", "Hobart", "Horst", "Hubert", "Hugh", "Humbert", "Huni", "Hutch", "Ing", "Ingram", "Ivo", "Jerry", "Kagan", "Kant", "Karcher", "Karl", "Kasch", "Kass", "Kearn", "Kellen", "Kepler", "Kiefer", "Klaus", "Klein", "Konrad", "Kurt", "Lance", " Lando", "Lang", "Lear", "Len", "Leonard", "Lindberg", "Loring", "Louis", "Ludwig", "Luther", "Lyulf", "Mallory", "Mandel", "Manfred", "Mathias", "Meyer", "Miles", "Milo", "Nevin", "Norbert", "Oberon", "Obert", "Odette", "Odis", "Orlan", "Ormand", "Ormanda", "Osborn", "Osten", "Otis", "Otto", "Paulos", "Penrod", "Rainart", "Redmond", "Reinhart", "Reinhold", "Rikard", "Ring", "Ritter", "Roderick", "Roger", "Roland", "Rolf", "Rollins", "Ross", "Roswald", "Roth", "Rudeger", "Rudolph", " Rune", "Schaffer", "Schmidt", "Schneider", "Sinbad", "Stark", "Stefan", "Stein", "Strom", "Tab", "Theobold", "Tyson", "Uben", "Uberto", "Ubrig", "Ubrigens", "Uhr", "Ulas", "Ulbrecht", "Ulbrich", "Ulexite", "Ulgar", "Ulman", "Ulriah", "Ulrich", "Unser", "Uwe", "Vaduz", "Valdermar", "Varick", "Varner", "Verile", "Verner", "Vid", "Vilem", "Vilmos", "Volker", "Waggoner", "Wagner", "Walbert", "Waldemar", "Waldron", "Walmond", "Walten", "Walter", "Waltraut", "Warner", "Warren", "Wes", "Wilbert", "Willis", "Wilmer", "Wilson", "Winfield", "Yale", "Yohann", "Zamael", "Zelig"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+
+
 ?>

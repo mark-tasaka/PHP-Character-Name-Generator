@@ -168,4 +168,61 @@ function englishGivenNamesFemale()
 }
 
 
+function finnishGivenNamesFemale()
+{
+    $giveNames = array ( "Kaija", "Kalle", "Louhi", "Preita", "Senja", "Tarja", "Terhi" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function frenchGivenNamesFemale()
+{
+    $giveNames = array ( "Abril", "Alair", "Alberta", "Alize", "Amour", "Avril", "Babette", "Bailey", "Bedelia", "Bernadette", "Caroline", "Caron", "Cerise", "Chablis", "Chanel", "Charlotte", "Cheriss", "Cheryl", "Claudette", "Colette", "Courtesy", "Cydney", "Darcie", "Darlene", "Deja", "Denise", "Desiree", "Destiny", "Didina", "Dior", "Djab", "Dominique", "Doreen", "Elaine", "Elise", "Elita", "Elle", "Eloise", "Emeraude", "Etoile", "Evonne", "Fifine", "Fleur", "Fontanna", "Fortune", "Garland", "Gay", "Geneva", "Gervaise", "Ghislaine", " Harriet", "Honor", "Isabeau", "Ivette", "Jacqueline", "Jaimie", "Janel", "Jolie", "Juliet", "Kadence", "Kalet", "Kordell", "Kyrielle", "L'Oréal", "Larue", "Lauren", "Laverne", "Leala", "Leontyne", "Lesh", "Lisette", "Lisle", "Lois", "Loring", "Lucetta", "Lucie", "Lunette", "Lyla", "Lyle", "Maine", "Mallory", "Manon", "Mardi", "Margo", "Marianne", "Maribel", "Marie", "Marion", "Marvelle", "Maureen", "Mauve", "Mavis", "Melisenda", "Merane", "Merla", "Merle", "Merlyn", "Meryl", "Miette", "Mignon", " Monique", "Moselle", "Nadia", "Naeva", "Nanette", "Narcisse", "Nathaly", "Ninon", "Noella", "Odetta", "Odette", "Odil", "Opaline", "Orane", "Oriel", "Ouida", "Page", "Pascale", "Perry", "Prunella", "Purvis", "Questa", "Quiterie", "Raylene", "Remy", "Renee", "Riva", "Rochelle", "Roslin", "Ruby", "Rui", "Sage", "Salene", "Sarotte", "Satin", "Scout", "Searlait", "Sebastiona", "Sennett", "Shannelle", "Shantay", "Shanton", "Sharice", "Shyann", "Sidonie", "Sigourney", "Solange", "Soleil", "Sorrel", "Sosie", "Stella", "Susie", "Suzette", "Sydney", "Sydni", "Symone", "Tallis", "Tallys", "Tayce", "Taylar", "Tempest", "Therese", "Tiffany", "Tilda", "Tolena", "Toni", "Tracy", "Troy", "Turquoise", "Vedette", "Vilette", "Yvonne", "Zanette" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function gaelicGivenNamesFemale()
+{
+    $giveNames = array (  "Blaine", "Blair", "Eilis", "Kalene", "Keaira", "Keelty", "Keely", "Keen", "Keitha", "Kellan", "Kennis", "Kerry", "Kevina", "Killian", "Kyna", "Lakyle", "Lee", "Mab", "Maeryn", "Maille", "Mairi", "Maisie", "Meara", "Meckenzie", "Myrna", "Nara", "Neala", "Nelia", "Oona", "Quinn", "Rhoswen", "Riane", "Riley", "Rogan", "Rona", "Ryan", "Sadb", "Shanley", "Shelagh", "Sine", "Siobhan", "Sorcha", "Ultreia", "Vevila"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+function germanGivenNamesFemale()
+{
+    $giveNames = array ( "Adalgisa", "Adelaide", "Adolfina", "Aemilia", "Alberta", "Alice", "Alisha", "Amelia", "Amerie", "Anneliese", "Antje", "Arabelle", "Aria", "Arrietty", "Aubrey", "Berit", "Berlynn", "Binney", "Bluma", "Bruna", "Callan", "Cecania", "Clay", "Dagmar", "Dale", "Dame", "Della", "Dustin", "Ebba", "Edwina", "Elfriede", "Emma", "Emmylou", "Ermine", "Faiga", "Farica", "Frederica", "Frieda", "Galiana", "Geraldine", "Gertrude", "Gretchen", "Griselda", "Hallam", "Heidi", "Henrietta", "Hilda", "Honey", "Ilsa", "Imelda", " Irma", "Isela", "Jarvia", "Jenell", "Jerolyn", "Johanna", "Joss", "Kalona", "Karel", "Karla", "Karlotta", "Kateri", "Katrin", "Katrina", "Kelby", "Kerstin", "Klarissa", "Leisel", "Leoma", "Leona", "Leonie", "Liese", "Liesel", "Lise", "Lorelei", "Lotte", "Louanna", "Louisa", "Luana", "Lucina", "Lysa", "Mallory", "Mandel", "Mariel", "Maritza", "Mathilda", "Meryl", "Meta", "Mina", "Morgen", "Nixie", "Norberta", "Nordica", "Notburga", "Odelia", "Odella", "Olinda", "Oma", "Orlantha", "Ormanda", " Otylia", "Quartz", "Rae", "Rayma", "Richelle", "Roderica", "Rolanda", "Rory", "Rosamund", "Schmetterling", "Senta", "Serilda", "Sieglinde", "Silke", "Sommer", "Sonnenschein", "Tabea", "Tawanda", "Tillie", "Trude", "Trula", "Ulla", "Ulrika", "Ulva", "Uta", "Viveka", "Walda", "Wanda", "Wilhelmina", "Wilma", "Winola", "Zelda", "Zelinda", "Zelma", "Zenzi"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
 ?>

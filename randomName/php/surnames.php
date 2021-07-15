@@ -138,4 +138,20 @@ function englishSurnames()
 
 
 
+
+function finnishSurnames()
+{
+    $surname = array ("Aalto", "Aho", "Ahola", "Ahonen", "Annala", "Anttila", "Aro", "Arola", "Autio", "Couri", "Elo", "Erkkila", "Eskola", "Haapala", "Haataja", "Hakala", "Hakola", "Halko", "Halla", "Halla", "Halonen", "Halonen", "Hamalainen", "Hanka", "Hanninen", "Hannula", "Harju", "Hatala", "Hautala", "Heikkila", "Heikkinen", "Heino", "Heinonen", "Hietala", "Hiltunen", "Hokkanen", "Honkala", "Huhta", "Huhtala", "Huotari", "Jarvela", "Jarvi", "Jarvinen", "Jokela", "Joki", "Jokinen", "Juntunen", "Justi", "Jutila", "Kalas", "Kallio", "Kangas", "Kantola", "Kari", "Karjala", "Karvonen", "Karvonen", "Kauppi", "Kauppila", "Kemppainen", "Kemppainen", "Keranen", "Keto", "Ketola", "Kilpela", "Kinnunen", "Kivela", "Kivi", "Kivisto", "Koistinen", "Koivisto", "Kokko", "Korhonen", "Korpela", "Korpi", "Koskela", "Koski", "Koskinen", "Kotila", "Kotila", "Kujala", "Kumpula", "Kurtti", "Kuusisto", "Kyllo", "Kyllonen", "Laakso", "Lahti", "Laine", "Laitinen", "Lakso", "Lammi", "Lampi", "Lampinen", "Lampo", "Lassila", "Latvala", "Lauri", "Laurila", "Lehtinen", " Lehto", "Lehtola", "Lehtonen", "Leino", "Leino", "Leinonen", "Lepisto", "Leppanen", "Leppo", "Linna", "Luoma", "Maijala", "Maijala", "Makela", "Maki", "Makinen", "Manner", "Manni", "Manninen", "Manninen", "Mantyla", "Marttila", "Mattila", "Maunu", "Mikkola", "Moilanen", "Murto", "Neva", "Nevala", "Niemela", "Niemi", "Nikula", "Niska", "Niskanen", "Niva", "Nurmi", "Oja", "Ojala", "Ollila", "Paavola", "Pakkala", "Palo", "Pelto", "Peltola", "Peltonen", "Perala", "Perko", "Pesola", "Peura", "Pietila", "Pollari", "Pulkkinen", "Pulli", "Puro", "Raisanen", "Rajala", "Ramo", "Ranta", "Rantala", "Rantanen", "Rautio", "Remes", "Rinne", "Rintala", "Ruona", "Saarela", "Saari", "Saarinen", "Sakala", "Saksa", "Salmela", "Salmi", "Salminen", "Salo", "Salonen", "Savela", "Seppala", "Seppanen", "Sippola", "Suomi", "Takala", "Tanner", "Tervo", "Tikkanen", "Toivonen", "Tolonen", "Tuomala", "Tuomi", "Tuomi", "Tuominen", "Tuominen", "Valli", "Waara", "Wainio", "Waisanen", "Walli", "Wallo", "Wiita", "Wiitala", "Wirkkala", "Wirta", "Wirtanen", "Wuollet", "Wuori", "Ylitalo"
+    );
+
+    $select = rand(0, (count($surname) - 1) );
+
+    $name = $surname[$select];
+
+    return $name;
+    
+}
+
+
+
 ?>
