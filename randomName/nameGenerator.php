@@ -69,7 +69,7 @@ $nameDescript = getNameDescript($givenName, $surname, $gender);
 
 
 $lastName = array(
-    
+
 );
 
 $lastName2 = array_unique($lastName);
@@ -89,10 +89,10 @@ echo $nameDescript;
 ?>
 </span>
 
-   
+
+
 <span id="nameBlock">
 <?php
-
 if($nameCount >= 20)
 {
     foreach($nameGeneratedCol1 as $name)
@@ -113,9 +113,11 @@ else
 foreach($lastName2 as $name)
 {
     echo "\"" . $name . "\", <br/>";
-}*/
+}
+*/
 
 ?>
+
 </span>
            
    

@@ -218,7 +218,33 @@ function germanGivenNamesMale()
 }
 
 
+function greekGivenNamesMale()
+{
+    $giveNames = array (  "Achilles", "Adonis", "Adrian", "Agamemnon", "Ajax", "Alcander", "Alcibiades", "Alexander", "Altair", "Amar", "Ambrose", "Anacletus", "Anastasius", "Anatole", "Andrew", "Andromeda", "Anker", "Anstice", "Antenor", "Anthony", "Antigonus", "Apollo", "Apostolos", "Archelaus", "Archimedes", "Ares", "Argus", "Arion", "Aristide", "Arsenio", "Asmodel", "Aster", "Athan", "Athanasios", "Athos", "Atlas", "Autolocus", "Avel", "Baptiste", "Basil", "Bates", "Bemus", "Bishop", "Caesar", "Callistus", "Cancer", "Carsten", "Castor", "Centaurus", "Charon", " Chiron", "Christian", "Christopher", "Claus", "Cleon", "Coeus", "Cohn", "Colin", "Corydon", "Cosimo", "Cronus", "Cyd", "Cyril", "Damasus", "Damien", "Dard", "Darius", "Deacon", "Deion", "Demetrius", "Dennis", "Deo", "Diomedes", "Dionysus", "Dooley", "Doran", "Dorian", "Elie", "Eneas", "Erastus", "Eris", "Eros", "Euclid", "Eugene", "Eustace", "Evagelos", "Evangelista", "Flavian", "Galen", "Gelasius", "Geode", "Geordi", "George", "Giles", "Goran", "Greer", "Gregory", "Hadrian", "Hamon", "Harmon", " Hector", "Helios", "Hephaestus", "Hercules", "Hermes", "Hieronymus", "Hipparchus", "Hippias", "Hippocrates", "Homer", "Horace", "Hydrus", "Hyginus", "Hypnos", "Iakobos", "Icarus", "Ilias", "Indigo", "Ioan", "Jace", "Jason", "Kai", "Kalin", "Kallen", "Karey", "Karsten", "Kirill", "Kit", "Konstantinos", "Kosmo", "Kozma", "Krischnan", "Kristoffer", "Kyros", "Laertes", "Leander", "Leon", "Leonidas", "Linus", "Loikanos", "Lucas", "Lykaios", "Lysander", "Marinos", "Mateo", "Melancton", "Melun", "Mete", "Momus", "Morpheus", " Myles", "Myron", "Narcissus", "Nectarios", "Nektarios", "Neo", "Nereus", "Nestor", "Nicholas", "Nicodemus", "Nike", "Nikos", "Obelia", "Obelix", "Ocean", "Oceana", "Odea", "Odele", "Odessa", "Odette", "Odysseus", "Olympia", "Omega", "Orea", "Orestes", "Orion", "Orrin", "Osanna", "Osias", "Otis", "Panos", "Panthea", "Paris", "Patroclus", "Peder", "Pello", "Pericles", "Perseus", "Philander", "Philemon", "Philip", "Philo", "Philostrate", "Philotus", "Phoenix", "Plato", "Platon", "Pluto", "Plutus", "Poseidon", " Priam", "Prometheus", "Proteus", "Ptolemy", "Rastus", "Rhodes", "Sesame", "Simonides", "Sisyphus", "Socrates", "Sofronio", "Solinus", "Soteria", "Soterios", "Spiridon", "Stamos", "Stavros", "Stephen", "Strom", "Talos", "Tansy", "Tarasios", "Thanos", "Theodore", "Theophilus", "Theron", "Thomas", "Tibalt", "Timeus", "Timoleon", "Timon", "Timothy", "Titus", "Tony", "Tracy", "Tymon", "Tyrone", "Uranus", "Urian", "Urien", "Vander", "Vasilios", "Vitaly", "Vitas", "Vivar", "Volney", "Xanthus", "Xeno", "Xenophon", "Xerarch", " Xuthus", "Xylo", "Xylon", "Xyst", "Xystum", "Xystus", "Yannis", "Yuri", "Zale", "Zander", "Zefirino", "Zendo", "Zeno", "Zenobio", "Zenos", "Zephyr", "Zero", "Zeth", "Zeus", "Zoello", "Zorba", "Zosimo", "Zowie"
+    );
 
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+function hawaiianGivenNamesMale()
+{
+    $giveNames = array (  "Akamu", "Analu", "Aulii", "Bane", "Eowyn", "Havika", "Kahale", "Kahanu", "Kahoku", "Kaholo", "Kai", "Kaikeapona", "Kaipo", "Kalama", "Kale", "Kalei", "Kaleo", "Kalepa", "Kana", "Kane", "Kanoa", "Kapono", "Keahi", "Keanu", "Kekoa", "Kelii", "Keona", "Kepano", "Konala", "Laakea", "Laionela", "Loe", "Lono", "Lulani", "Maik", "Makaio", "Makan", "Malo", "Manu", "Mauli", "Meka", "Moke", "Nahele", "Nalani", "Okalani", "Oke", "Okelani", "Oliana", "Onaona", "Palani", "Pekelo", "Uleki" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 
 ?>

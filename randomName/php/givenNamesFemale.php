@@ -225,4 +225,33 @@ function germanGivenNamesFemale()
 }
 
 
+
+function greekGivenNamesFemale()
+{
+    $giveNames = array ( "Acantha", "Adara", "Adelpha", "Adrienne", "Aegle", "Afrodite", "Agape", "Agata", "Aglaia", "Agnes", "Aileen", "Alcina", "Aldora", "Alethea", "Alexandra", "Alice", "Alida", "Alisha", "Alixia", "Althea", "Aludra", "Amara", "Ambrosia", "Amethyst", "Aminta", "Amphitrite", "Anastasia", "Andrea", "Andromache", "Andromeda", "Angela", "Anstice", "Antonia", "Anysia", "Aphrodite", "Apus", "Arali", "Aretha", "Ariadne", "Ariana", "Arissa", "Artemia", "Artemis", "Astrid", "Athena", "Atropos", "Aurora", "Avel", "Basalt", "Basilissa", " Bernice", "Bloodstone", "Calandra", "Calantha", "Calista", "Calliope", "Candace", "Candra", "Carina", "Carisa", "Cassandra", "Cassiopeia", "Catherine", "Celandia", "Cerelia", "Chalcedony", "Charisma", "Christina", "Cinnabar", "Clio", "Cloris", "Clotho", "Colette", "Cora", "Cressida", "Cybill", "Cyd", "Cynthia", "Damaris", "Damia", "Daphne", "Daria", "Daryn", "Dasha", "Dea", "Delbin", "Della", "Delphine", "Delta", "Demetria", "Desdemona", "Desma", "Despina", "Dionne", "Diotama", "Dora", "Dorcas", "Doria", "Dorian", "Doris", " Dorothy", "Dorrit", "Drew", "Drucilla", "Dysis", "Ebony", "Effie", "Eileen", "Elani", "Eleanor", "Electra", "Elke", "Elma", "Elodie", "Eos", "Eppie", "Eris", "Ethereal", "Eudora", "Eugenia", "Eulalia", "Eunice", "Euphemia", "Euphrosyne", "Euterpe", "Evadne", "Evangeline", "Filmena", "Gaea", "Galina", "Gelasia", "Gemini", "Georgia", "Greer", "Greta", "Harmony", "Hebe", "Hecate", "Hecuba", "Helen", "Hera", "Hermia", "Hermione", "Hero", "Hestia", "Hilary", "Hippolyta", "Hyacinth", "Hydra", "Ianthe", " Ilena", "Iolite", "Iona", "Irene", "Iris", "Isidore", "Jacey", "Jacinta", "Jolanta", "Kacia", "Kaethe", "Kaia", "Kaija", "Kairi", "Kairos", "Kali", "Kalidas", "Kalika", "Kalista", "Kalli", "Kalliope", "Kallista", "Kalonice", "Kalyca", "Kanchana", "Kandace", "Kara", "Karana", "Karen", "Karin", "Karis", "Karissa", "Karlyn", "Kasandra", "Kassandra", "Katarina", "Kate", "Katherine", "Katina", "Khina", "Kineta", "Kirsten", "Kolina", "Kora", "Koren", "Kori", "Korina", "Kosma", "Kristen", "Kristi", " Kristina", "Kristine", "Kristy", "Kristyn", "Krysten", "Krystina", "Kynthia", "Kyra", "Kyrene", "Kyria", "Lacy", "Lali", "Lareina", "Laria", "Larina", "Larisa", "Larissa", "Lasthenia", "Latona", "Layna", "Leandra", "Leda", "Ledell", "Lenore", "Leonora", "Leta", "Letha", "Lethia", "Lexi", "Lexie", "Lidia", "Lilika", "Lina", "Linore", "Litsa", "Livana", "Livvy", "Lotus", "Lyanne", "Lycorida", "Lycoris", "Lydia", "Lydie", "Lykaios", "Lyra", "Lyric", "Lyris", "Lysandra", "Macaria", "Madalena", " Madelia", "Madeline", "Madge", "Maeve", "Magan", "Magdalen", "Maia", "Mala", "Malissa", "Mara", "Margaret", "Marigold", "Marilee", "Marjorie", "Marlene", "Marmara", "Maya", "Medea", "Medora", "Megan", "Megara", "Melanctha", "Melanie", "Melba", "Melenna", "Melia", "Melinda", "Melissa", "Melitta", "Melody", "Melpomene", "Minta", "Mnemosyne", "Mona", "Muse", "Myda", "Myrtle", "Naia", "Naida", "Naiyah", "Narcissa", "Narella", "Natasha", "Nell", "Nellie", "Nellis", "Nelly", "Neola", "Neoma", "Nerin", " Nerina", "Neysa", "Nichole", "Nicia", "Nicki", "Nicole", "Nike", "Nikita", "Niobe", "Nitsa", "Noire", "Nora", "Nyla", "Nysa", "Nyssa", "Nyx", "Obelia", "Oceana", "Odea", "Odessa", "Ofelia", "Olympia", "Omega", "Onyx", "Ophelia", "Ophira", "Orea", "Oriana", "Padgett", "Pallas", "Pamela", "Pandora", "Panphila", "Parthenia", "Pelagia", "Penelope", "Phedra", "Philadelphia", "Philippa", "Philomena", "Phoebe", "Phyllis", "Pirene", "Prisma", "Psyche", "Ptolema", "Pyhrrha", "Pyrena", "Pythia", "Raissa", " Rasia", "Rene", "Rhea", "Rhoda", "Rhodanthe", "Rita", "Rizpah", "Saba", "Sandra", "Sandrine", "Sapphira", "Sappho", "Seema", "Selena", "Selina", "Sema", "Sherise", "Sibley", "Sirena", "Sofi", "Sondra", "Sophie", "Sophronia", "Spirituality", "Spodumene", "Stacia", "Stefania", "Stephaney", "Stesha", "Sybella", "Sybil", "Syna", "Tabitha", "Talia", "Talieya", "Taliyah", "Tallya", "Tamesis", "Tanith", "Tansy", "Taryn", "Tasha", "Tasia", "Tedra", "Teigra", "Tekla", "Telma", "Terentia", "Terpsichore", "Terri", " Tess", "Thaddea", "Thaisa", "Thalassa", "Thalia", "Than", "Thea", "Thelma", "Themis", "Theodora", "Theodosia", "Theola", "Theone", "Theophilia", "Thera", "Theresa", "Thisbe", "Thomasa", "Thracia", "Thyra", "Tiana", "Tienette", "Timandra", "Timothea", "Titania", "Titian", "Tomai", "Tona", "Tresa", "Tressa", "Triana", "Trifine", "Trina", "Tryna", "Urania", "Uriana", "Vanessa", "Vasiliki", "Velma", "Venus", "Voleta", "Xandria", "Xandy", "Xantha", "Xenia", "Xenobia", "Xianthippe", "Xylia", "Xylona", "Yolanda", " Yolie", "Zagros", "Zale", "Zanaide", "Zandra", "Zanita", "Zanthe", "Zebina", "Zelia", "Zena", "Zenaide", "Zenia", "Zenobia", "Zenon", "Zera", "Zeta", "Zeuti", "Zeva", "Zinaida", "Zoe", "Zosima"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function hawaiianGivenNamesFemale()
+{
+    $giveNames = array ( "Alana", "Aloani", "Aloha", "Alohi", "Alona", "Anani", "Aulii", "Edena", "Haimi", "Iolana", "Kai", "Kailani", "Kaili", "Kaimi", "Kalama", "Kalani", "Kalena", "Kaley", "Kali", "Kalia", "Kalina", "Kaloni", "Kamea", "Kawena", "Keahi", "Keala", "Keandra", "Keanu", "Keiki", "Keilana", "Kekona", "Keola", "Kiana", "Kiele", "Kina", "Kinipela", "Konane", "Lahela", "Lanai", "Lani", "Lanikai", "Leilana", "Liliha", "Lilo", "Loe", "Lokelani", "Luana", "Mahala", "Mahina", "Maik", " Makaio", "Makala", "Makana", "Makani", "Makelina", "Malana", "Maleah", "Malia", "Malu", "Mei", "Mekia", "Melia", "Mily", "Nalani", "Nalanie", "Nallely", "Napua", "Nira", "Noelani", "Okelani", "Ola", "Oliana", "Olina", "Onaona", "Palakika", "Palila", "Paterekia", "Pela", "Pelenakino", "Pelika", "Pelulio", "Puakai", "Puanani", "Roselani", "Sasilvia", "Ululani", "Walanika", "Wanaao", "Wanika" 
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
 ?>
