@@ -89,6 +89,10 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = hawaiianGivenNamesMale();
             }
+            else if($backgroundGiven === 18)
+            {
+                $firstName = hebrewGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -169,6 +173,10 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = hawaiianGivenNamesFemale();
             }
+            else if($backgroundGiven === 18)
+            {
+                $firstName = hebrewGivenNamesFemale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -240,6 +248,14 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 15)
         {
             $lastName = hungarianSurnames();
+        }
+        else if($backgroundSurname === 16)
+        {
+            $lastName = indianSurnames();
+        }
+        else if($backgroundSurname === 17)
+        {
+            $lastName = irishSurnames();
         }
         else
         {
@@ -347,7 +363,11 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 17:
             $firstName = "Hawaiian";
             break;
-          
+
+        case 18:
+            $firstName = "Hebrew";
+            break;
+                        
 
         default:
         $firstName = "99999999";
@@ -420,7 +440,15 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 15:
             $lastName = "Hungarian";
                 break;
-           
+         
+        case 16:
+            $lastName = "Indian";
+            break;
+          
+        case 17:
+            $lastName = "Irish";
+            break;
+                                                        
         default:
         $lastName = "99999999";
 

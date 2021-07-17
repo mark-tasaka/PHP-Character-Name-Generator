@@ -247,4 +247,18 @@ function hawaiianGivenNamesMale()
 }
 
 
+function hebrewGivenNamesMale()
+{
+    $giveNames = array (  "Aaron", "Abbas", "Abdiel", "Abel", "Abijah", "Abner", "Abraham", "Abrahsa", "Absolom", "Acacio", "Adalai", "Adam", "Adar", "Addai", "Adin", "Adley", "Admon", "Adon", "Agrippa", "Ahab", "Ahmik", "Aitan", "Akim", "Alphaeus", "Alphus", "Alva", "Amal", "Amiel", "Amon", "Amos", "Amram", "Anath", "Annas", "Arel", "Arion", "Aristotle", "Arnon", "Asa", "Asher", "Asphar", "Azariah", "Barbaras", "Barnabas", "Bartholomew", "Baruch", "Bates", "Bela", "Benaiah", "Benjamin", "Benson", "Bethuel", "Boaz", "Cain", "Caleb", "Carmelo", "Carpus", "Chaim", "Chatan", "Dagan", "Dalit", "Daniel", "David", "Dekel", "Dov", "Eben", "Ebner", "Eden", "Edom", "Ehud", "Eisig", "Eitan", "Elam", "Elan", "Elazar", "Elias", "Elijah", "Eliot", "Elkanah", "Emanuel", "Enoch", "Ephraim", "Eran", "Esau", "Ezekiel", "Ezra", "Gabai", "Gabriel", "Gan", "Gatian", "Genesis", "Gersham", "Giacomo", "Gian", "Giannes", "Gideon", "Giuseppe", "Goliath", "Haggai", "Haran", "Heber", "Heinz", "Hezekiah", "Hilel", "Hiram", "Hosea", "Hyman", "Ichabod", "Ike", "Ilan", "Ilia", "Ilias", "Immanuel", "Imre", "Ioan", "Ira", "Irin", "Isaac", "Isaiah", "Ishmael", "Israel", "Ithamar", "Jabez", "Jabin", "Jachin", "Jacob", "Jaden", "Jairus", "James", "Japhet", "Jared", "Jaron", "Javan", "Jebediah", "Jeremiah", "Jeremy", "Jesse", "Jesus", "Jethro", "Joachim", "Job", "Jody", "Joel", "John", "Jonas", "Jonathan", "Joram", "Jordan", "Joseph", "Joshua", "Juan", "Judd", "Kabos", "Kadmiel", "Kaniel", "Karmel", "Katzir", "Kedar", "Kenan", "Kobe", "Laban", "Label", "Lael", "Lavan", "Lazarus", "Lemuel", "Leor", "Leshem", "Levi", "Lot", "Madai", "Makayla", "Makis", "Malachi", "Mario", "Marlin", "Matai", "Matthew", "Mattison", "Mayer", "Mehetabel", "Meshach", "Mica", "Michael", "Mihaly", "Mordecai", "Moses", "Nachman", "Nachmanke", "Nachum", "Nadav", "Nadir", "Nahir", "Nahum", "Nathaniel", "Naum", "Nehemiah", "Nimrod", "Nirel", "Nisi", "Noadiah", "Noah", "Noy", "Nuriel", "Obadiah", "Oded", "Oma", "Omar", "Omri", "Oralee", "Oren", "Orli", "Orly", "Ornice", "Osaze", "Osip", "Oz", "Pallu", "Palti", "Pau", "Phinneaus", "Pontus", "Rafa", "Rafael", "Ranen", "Raphael", "Ravid", "Reuben", "Reuel", "Rishon", "Roman", "Roni", "Rouvin", "Ruben", "Saad", "Sachiel", "Sagiv", "Saloman", "Sam", "Samson", "Samuel", "Saul", "Seff", "Seraphim", "Seth", "Shafir", "Shailen", "Shiloh", "Shimon", "Shulamith", "Shylock", "Simon", "Simpson", "Sivan", "Solomon", "Talman", "Temani", "Temo", "Terach", "Timur", "Tivon", "Tobias", "Tomer", "Tov", "Tuvya", "Tyrek", "Tzuriel", "Udeh", "Uehudah", "Uri", "Urias", "Ury", "Uzi", "Uziah", "Uziel", "Vered", "Vida", "Volf", "Yaakov", "Yaar", "Yadon", "Yago", "Yahir", "Yair", "Yakim", "Yakov", "Yamin", "Yan", "Yanis", "Yanoach", "Yaphet", "Yarin", "Yechezkel", "Yehudi", "Yered", "Yeshaya", "Yitro", "Yitzchak", "Yonas", "Yonatan", "Yosef", "Yuval", "Zabulon", "Zaccheo", "Zachary", "Zahavi", "Zakai", "Zakur", "Zamir", "Zan", "Zane", "Zann", "Zared", "Zavad", "Zayden", "Zazu", "Zebediah", "Zebulon", "Zedekiah", "Zenoa", "Zephan", "Zev", "Ziff", "Zion", "Ziph", "Ziv", "Zomier", "Zuriel", "Zurl"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
 ?>
