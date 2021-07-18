@@ -261,4 +261,19 @@ function hebrewGivenNamesMale()
 }
 
 
+
+function hindiGivenNamesMale()
+{
+    $giveNames = array ("Abhay", "Abhijit", "Achuta", "Aditya", "Ahura", "Ajatashatru", "Ajay", "Akaash", "Akshay", "Alam", "Amit", "Anand", "Ananias", "Anay", "Anoop", "Aseem", "Asija", "Asuman", "Asvin", "Atharvan", "Atul", "Badal", "Bala", "Balaji", "Balavan", "Baldev", "Balin", "Banke", "Bharat", "Bhudev", "Bramha", "Bukka", "Chandra", "Dattatreya", "Deepak", "Devarsi", "Dhananjay", "Dharuna", "Dhatri", "Dilip", "Dinesh", "Duranjaya", "Durjaya", "Eknath", "Feroz", "Gajendra", "Ganesh", "Girish", "Gopal", "Hannes", "Hari", "Harshul", "Hitesh", "Inder", "Iravan", "Ishan", "Jaideep", "Jalal", "Jayant", "Jeevan", "Jitendra", "Kabir", "Kabr", "Kala", "Kalidas", "Kalkin", "Kalpanath", "Kamadev", "Kamlesh", "Kanak", "Kanan", "Kapil", "Kartik", "Kartikeya", "Kaushal", "Kaushik", "Kavi", "Kedar", "Keshav", "Ketan", "Khadim", "Khyber", "Kintan", "Kirit", "Kishore", "Kripa", "Krunal", "Kuldeep", "Kulvir", "Kunal", "Kusagra", "Kush", "Kushan", "Lakshman", "Lakshmi", "Lakshya", "Lalit", "Lavesh", "Lokesh", "Madan", "Madhav", "Mahabala", "Mahavira", "Mahesh", "Maitreya", "Manavendra", "Mandar", "Mandhatri", "Manik", "Manish", "Manmohan", "Manoj", "Mansukh", "Manu", "Markandeya", "Matanga", "Mayon", "Mehdi", "Mehul", "Mihir", "Milind", "Minesh", "Mitali", "Mitesh", "Mohan", "Mohin", "Mohit", "Mukta", "Mukul", "Mukunda", "Nabendu", "Nachiketa", "Nadim", "Nagesh", "Naimish", "Nakul", "Nalan", "Namdev", "Nandin", "Narayana", "Naresh", "Narsi", "Nartana", "Naveen", "Nayan", "Nihar", "Nilay", "Nimai", "Nimesh", "Niraj", "Niramitra", "Niranjan", "Nirav", "Nishad", "Nitesh", "Nitya-Sundara", "Noor", "Ojal", "Omana", "Omarjeet", "Pallav", "Pandita", "Pandya", "Pankaj", "Parag", "Paramartha", "Paras", "Parth", "Piyush", "Prabhakar", "Prabhu", "Pradeep", "Prakash", "Pramsu", "Pranav", "Pranay", "Prasata", "Prassana", "Pratap", "Pratik", "Pratyush", "Praveen", "Pravin", "Prem", "Prithu", "Privrata", "Pundarik", "Purujit", "Pusan", "Qimat", "Ragin", "Rahul", "Raivata", "Raj", "Rajanikant", "Rajendra", "Rajesh", "Rajiv", "Rakesh", "Ram", "Raman", "Ramanuja", "Ramesh", "Ranjan", "Ranjeet", "Ranjit", "Rantidev", "Ratri", "Ravi", "Ravindra", "Rikin", "Rishab", "Rishi", "Rizal", "Rohan", "Rohit", "Ronak", "Roshan", "Ruchir", "Rupesh", "Saarik", "Sachchit", "Sachin", "Sagar", "Sahadev", "Sahen", "Sahib", "Samir", "Sampath", "Samudra", "Sanat", "Sandeep", "Sanjay", "Sanjeev", "Sanjog", "Sankara", "Santosh", "Sapan", "Sarasvan", "Sarat", "Sarngin", "Sarojin", "Saswata", "Satayu", "Satrujit", "Satyen", "Saudeep", "Saunak", "Saurabh", "Senajit", "Shailesh", "Shalabh", "Shalin", "Shankar", "Shantanu", "Sharad", "Shashi", "Shashwat", "Shishir", "Shiv", "Shivendu", "Shyam", "Singh", "Snehal", "Soham", "Srijan", "Srikant", "Srinath", "Srinivas", "Sriram", "Sudarshan", "Sudesha", "Sudeva", "Sudhansu", "Sudhir", "Sukarman", "Sukumar", "Sumadhur", "Sumantu", "Sumati", "Sumit", "Sundara", "Sunil", "Suresh", "Surya", "Suvrata", "Swapnil", "Taksa", "Talor", "Tapan", "Tarun", "Tej", "Thaman", "Tilak", "Trisanu", "Tushar", "Udai", "Udit", "Ujala", "Umed", "Upendra", "Urjavaha", "Urvil", "Uttam", "Vadin", "Vaibhav", "Vairaja", "Valin", "Valmihi", "Vandan", "Vaninadh", "Vardhamma", "Varen", "Varesh", "Variya", "Varma", "Varun", "Vasant", "Vasava", "Vasin", "Vasudev", "Vasuman", "Vedanga", "Veer", "Vidvan", "Vihs", "Vijay", "Vijayendra", "Vikas", "Vikesh", "Vikram", "Vikrant", "Vimal", "Vinay", "Vineet", "Vinod", "Vipul", "Viraj", "Virat", "Vishal", "Visvajit", "Visvakarman", "Visvayu", "Viswanath", "Vivatma", "Vivek", "Waman", "Yamal", "Yash", "Yashodhara", "Yashovarman", "Yashpal", "Yauvani", "Yogendra", "Yogesh", "Yudhajit"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
 ?>
