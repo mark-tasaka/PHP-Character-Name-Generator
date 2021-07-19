@@ -276,4 +276,35 @@ function hindiGivenNamesMale()
 }
 
 
+
+function hungarianGivenNamesMale()
+{
+    $giveNames = array ("Atilla", "Dezso", "Dorjan", "Ervin", "Gedeon", "Gerson", "Kada", "Kalman", "Kaplony", "Kapolcs", "Kardos", "Karsa", "Kartal", "Keled", "Keleman", "Kemenes", "Kende", "Kerecsen", "Keve", "Kinga", "Kolos", "Kont", "Kund", "Laborc", "Ladomér", "Lantos", "László", "Lehel", "Lél", "Levente", "Lipót", "Loránd", "Lõrinc", "Medárd", "Megyer", "Menyhért", "Miksa", "Milán", "Mór", "Nándor", "Nyék", "Odon", "Oguz", "Ond", "Onelia", "Orbán", "Örkény", "Ormos", "Örs", "Oszlár", "Ozor", "Özséb", "Ozsvát", "Pázmán", "Pellegrin", "Pentele", "Piusz", "Pongor", "Radomér", "Regõ", "Rendor", "Rezsõ", "Robi", "Rókus", "Sandor", "Sebes", "Solt", "Sólyom", "Soma", "Surány", "Szabolcs", "Szalók", "Szemere", "Szervác", "Szescõ", "Szevér", "Tabor", "Taksony", "Tardos", "Tarján", "Tas", "Tétény", "Tihamér", "Titusz", "Tivadar", "Tomaj", "Ubul", "Ugod", "Ugor", "Uros", "Uzor", "Várkony", "Vayk", "Vidor", "Vitéz", "Zádor", "Zajzon", "Zalán", "Zámor", "Zaránd", "Zekö", "Zerind", "Zétény", "Zobor", "Zoltán", "Zombor", "Zsigmond", "Zsolt"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+function indianGivenNamesMale()
+{
+    $giveNames = array ("Kers", "Mog", "Omprakash", "Prabodh", "Praful", "Som"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
 ?>

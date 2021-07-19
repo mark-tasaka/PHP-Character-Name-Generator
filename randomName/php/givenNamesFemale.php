@@ -285,4 +285,33 @@ function hindiGivenNamesFemale()
 }
 
 
+function hungarianGivenNamesFemale()
+{
+    $giveNames = array ("Bela", "Kamella", "Katalin", "Katoka", "Klara", "Klarika", "Lenci", "Lilike", "Lorand", "Nusa", "Onella", "Zigana", "Zizi", "Zsa Zsa"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+function indianGivenNamesFemale()
+{
+    $giveNames = array ("Ketaki", "Kusum", "Narmada", "Naveena", "Nishtha", "Nivedita", "Sahana", "Salena", "Sanchali", "Sanchaya", "Sanjana", "Shivani", "Shubhada", "Sumitra", "Swati", "Tarangini", "Tarjani", "Trilochana", "Zaqaria"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
 ?>

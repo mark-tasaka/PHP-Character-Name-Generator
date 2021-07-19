@@ -97,6 +97,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = hindiGivenNamesMale();
             }
+            else if($backgroundGiven === 20)
+            {
+                $firstName = hungarianGivenNamesMale();
+            }
+            else if($backgroundGiven === 21)
+            {
+                $firstName = indianGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -185,6 +193,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = hindiGivenNamesFemale();
             }
+            else if($backgroundGiven === 20)
+            {
+                $firstName = hungarianGivenNamesFemale();
+            }
+            else if($backgroundGiven === 21)
+            {
+                $firstName = indianGivenNamesFemale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -268,6 +284,10 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 18)
         {
             $lastName = italianSurnames();
+        }
+        else if($backgroundSurname === 19)
+        {
+            $lastName = japaneseSurnames();
         }
         else
         {
@@ -383,8 +403,15 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 19:
             $firstName = "Hindi";
             break;
-                                                  
 
+        case 20:
+            $firstName = "Hungarian";
+            break;
+
+        case 21:
+            $firstName = "Indian";
+            break;
+                                                                        
         default:
         $firstName = "99999999";
 
@@ -468,7 +495,10 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 18:
             $lastName = "Italian";
             break;
-                     
+
+        case 19:
+            $lastName = "Japanese";
+            break;                   
                 
 
                                                         
