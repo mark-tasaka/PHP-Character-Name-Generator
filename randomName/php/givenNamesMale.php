@@ -306,5 +306,48 @@ function indianGivenNamesMale()
 }
 
 
+function irishGivenNamesMale()
+{
+    $giveNames = array ("Aban", "Adan", "Adare", "Aeary", "Avonmore", "Bain", "Bairre", "Ballinamore", "Banagher", "Barry", "Beacan", "Benen", "Bevin", "Blaan", "Blaine", "Blair", "Boyd", "Braden", "Bram", "Brett", "Brian", "Buzz", "Caedmon", "Caelan", "Calder", "Calhoun", "Campbell", "Canice", "Carden", "Carey", "Carlow", "Carrick", "Ciaran", "Clancy", "Colin", "Colm", "Conall", "Conner", "Cormack", "Craig", "Cullen", "Curan", "Cuyler", "Dacian", "Dailan", "Daire", "Dallas", "Dallin", "Darby", "Darcy", "Aban", "Adan", "Adare", "Aeary", "Avonmore", "Bain", "Bairre", "Ballinamore", "Banagher", "Barry", "Beacan", "Benen", "Bevin", "Blaan", "Blaine", "Blair", "Boyd", "Braden", "Bram", "Brett", "Brian", "Buzz", "Caedmon", "Caelan", "Calder", "Calhoun", "Campbell", "Canice", "Carden", "Carey", "Carlow", "Carrick", "Ciaran", "Clancy", "Colin", "Colm", "Conall", "Conner", "Cormack", "Craig", "Cullen", "Curan", "Cuyler", "Dacian", "Dailan", "Daire", "Dallas", "Dallin", "Delano", "Dempsey", "Dermot", "Deshawn", "Devlin", "Devon", "Dewayne", "Dillon", "Donnelly", "Doran", "Druce", "Drystan", "Duane", "Duer", "Eachan", "Eamon", "Earc", "Egan", "Elgin", "Eman", "Evan", "Fergus", "Finnegan", "Finnian", "Flannery", "Flynn", "Gallagher", "Galvin", "Gannon", "Glen", "Gorman", "Guthrie", "Hagan", "Harkin", "Hennessy", "Hogan", "Hurley", "Inerney", "Innis", "Kadi", "Kaelan", "Kailin", "Kane", "Karney", "Kasey", "Kassidy", "Kavan", "Kaylen", "Kayven", "Keeley", "Keith", "Kelan", "Kellen", "Kelly", "Kelton", "Kelvin", "Kem", "Kendrick", "Kenneth", "Keon", "Kerwin", "Kesley", "Kian", "Killian", "Konnor", "Korey", "Kyle", "Kyler", "Labhras", "Lanty", "Larkin", "Laserian", "Laughlin", "Liam", "Loaghaire", "Lorcan", "Lucan", "Lunn", "Lynch", "Macartan", "Mackinley", "Maclean", "Macmorris", "Magee", "Maguire", "Mallow", "Maloney", "Mayo", "Mcauliffe", "McCoy", "Meallan", "Merrill", "Mickey", "Miles", "Mohanan", "Monroe", "Morgan", "Moriarty", "Murphy", "Myles", "Neil", "Neilan", "Nevan", "Nevin", "Nolan", "Odell", "Odhran", "Odran", "Oisin", "Oistin", "Oma", "Oona", "Oran", "Orane", "Ossian", "Owen", "Paddy", "Padraig", "Peyton", "Pierson", "Quigley", "Quillan", "Quinlan", "Quinn", "Rafferty", "Raghnall", "Reagan", "Rian", "Roan", "Roarke", "Rohan", "Ryons", "Scanlon", "Shamus", "Shane", "Shannon", "Shaun", "Shea", "Sheridon", "Sherrick", "Sivney", "Siward", "Somerly", "Teague", "Torrance", "Tracy", "Trevor", "Ualtar", "Uilleach", "Uilleam", "Uilleac", "Uilioc", "Uilliog", "Uillyog"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function italianGivenNamesMale()
+{
+    $giveNames = array ( "Agatho", "Amedeo", "Amerigo", "Aretino", "Arrigo", "Attilio", "Benvenuto", "Biondello", "Borachio", "Braulio", "Bronze", "Cajetan", "Carmelo", "Carmine", "Celesto", "Cirrillo", "Constanzo", "Corrado", "Demarco", "Deusdedit", "Donato", "Donus", "Eriberto", "Ermanno", "Ettore", "Falito", "Fiorello", "Flavio", "Fleance", "Floritzel", "Fortino", "Galileo", "Genovese", "Giancarlo", "Gianni", "Gino", "Gioacchino", "Giovanni", "Gratiano", "Honorius", "Hormisdas", "Hortensio", "Indro", "Lombardi", "Marco", "Mariano", "Martino", "Massimo", "Maurizio", "Maury", "Mercury", "Messala", "Michelangelo", "Napoleon", "Nek", "Nino", "Nuncio", "Othello", "Paco", "Pancrazio", "Paolo", "Paris", "Philario", "Pino", "Pisano", "Primo", "Proculeius", "Rocco", "Romeo", "Ruggerio", "Santo", "Saverio", "Silvano", "Solanio", "Taddeo", "Tancredo", "Ugo", "Umberto", "Venezio", "Venturo", "Vesuvio", "Vitalian", "Vittorio", "Zanebono", "Zanipolo"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+/*
+function irishGivenNamesMale()
+{
+    $giveNames = array (
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+*/
+
+
 
 ?>

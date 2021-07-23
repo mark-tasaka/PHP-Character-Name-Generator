@@ -105,6 +105,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = indianGivenNamesMale();
             }
+            else if($backgroundGiven === 22)
+            {
+                $firstName = irishGivenNamesMale();
+            }
+            else if($backgroundGiven === 23)
+            {
+                $firstName = italianGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -201,6 +209,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = indianGivenNamesFemale();
             }
+            else if($backgroundGiven === 22)
+            {
+                $firstName = irishGivenNamesFemale();
+            }
+            else if($backgroundGiven === 23)
+            {
+                $firstName = italianGivenNamesFemale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -288,6 +304,30 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 19)
         {
             $lastName = japaneseSurnames();
+        }
+        else if($backgroundSurname === 20)
+        {
+            $lastName = jewishSurnames();
+        }
+        else if($backgroundSurname === 21)
+        {
+            $lastName = koreanSurnames();
+        }
+        else if($backgroundSurname === 22)
+        {
+            $lastName = lithuanianSurnames();
+        }
+        else if($backgroundSurname === 23)
+        {
+            $lastName = muslimSurnames();
+        }
+        else if($backgroundSurname === 24)
+        {
+            $lastName = norwegianSurnames();
+        }
+        else if($backgroundSurname === 25)
+        {
+            $lastName = polishSurnames();
         }
         else
         {
@@ -411,6 +451,15 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 21:
             $firstName = "Indian";
             break;
+            
+        case 22:
+            $firstName = "Irish";
+            break;
+            
+        case 23:
+            $firstName = "Italian";
+            break;
+                                
                                                                         
         default:
         $firstName = "99999999";
@@ -500,6 +549,30 @@ function getNameDescript($originGiven, $originSurname, $sex)
             $lastName = "Japanese";
             break;                   
                 
+
+        case 20:
+            $lastName = "Jewish";
+            break;      
+
+        case 21:
+            $lastName = "Korean";
+            break;   
+
+        case 22:
+            $lastName = "Lithuanian";
+            break;    
+
+        case 23:
+            $lastName = "Muslim";
+            break;             
+    
+        case 24:
+            $lastName = "Norwegian";
+            break;          
+    
+        case 25:
+            $lastName = "Polish";
+            break;      
 
                                                         
         default:

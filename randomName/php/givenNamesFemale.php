@@ -314,4 +314,48 @@ function indianGivenNamesFemale()
 }
 
 
+function irishGivenNamesFemale()
+{
+    $giveNames = array ( "Adan", "Aella", "Afric", "Ailis", "Akaisha", "Alana", "Alison", "Arlene", "Bedelia", "Birgit", "Breck", "Breena", "Brena", "Brenda", "Brice", "Bridget", "Cacey", "Caitlin", "Callan", "Cara", "Carey", "Carin", "Casey", "Cassidy", "Ceara", "Chay", "Ciannait", "Clodagh", "Colleen", "Cordelia", "Darby", "Darcie", "Daryn", "Derry", "Dierdre", "Donelle", "Duvessa", "Dymphna", "Earlene", "Ennis", "Erin", "Farran", "Feena", "Gail", "Gilda", "Glen", "Guinevere", "Haley", "Hiolair", "Hisolda", " Ilene", "Ina", "Innis", "Kacey", "Kaci", "Kaelin", "Kalin", "Kasey", "Kasie", "Kassie", "Katelin", "Katen", "Katlin", "Kayley", "Keanna", "Keara", "Keegan", "Keeley", "Keelia", "Keelin", "Kella", "Kellen", "Kelly", "Kellyn", "Kennedy", "Kevina", "Kianna", "Kiarra", "Kiera", "Kiley", "Killian", "Kyara", "Kyla", "Kyle", "Kyleigh", "Kylene", "Lanni", "Lassie", "Lee", "Liadan", "Mackenzie", "Maegan", "Maeron", "Maeve", "Maire", "Mallow", "Maura", "Maureen", "Meryl", "Moira", " Mollie", "Mona", "Muna", "Muriel", "Murphy", "Nelda", "Nevina", "Nya", "Nyah", "Nyasia", "Ohnicio", "Onora", "Oola", "Oria", "Regan", "Reilley", "Riana", "Richael", "Rosa", "Shanessa", "Shannon", "Shauna", "Shawnee", "Shawnnessy", "Shay", "Shayla", "Shaylee", "Shea", "Sheena", "Shenna", "Sinead", "Sosanna", "Taban", "Teagan", "Tully", "Tyree", "Ula", "Zenevieva", "Zephan"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function italianGivenNamesFemale()
+{
+    $giveNames = array ("Abriana", "Bambi", "Bianca", "Caprice", "Cara", "Carin", "Carlotta", "Cettina", "Contessa", "Domani", "Donatella", "Fabiana", "Fiorella", "Fiorenza", "Gaetana", "Gioia", "Giordana", "Giovanna", "Graziella", "Ilaria", "Itala", "Justina", "Lanza", "Lave", "Liona", "Luca", "Lucia", "Luciana", "Mariabella", "Marietta", "Marsala", "Mia", "Michelle", "Mila", "Natalia", "Neroli", "Ornella", "Prima", "Primavera", "Quorra", "Ricarda", "Rocio", "Romana", "Ruffina", "Sidonia", "Sienna", "Sistine", "Speranza", "Tessa", "Trilby", "Uberta", "Vedette", "Venecia", "Venetia", "Zola"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+/*
+function irishGivenNamesFemale()
+{
+    $giveNames = array (
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+*/
+
+
 ?>
