@@ -388,6 +388,18 @@ function middleEnglishGivenNamesMale()
     
 }
 
+function nativeAmericanGivenNamesMale()
+{
+    $giveNames = array ("Achachak", "Adahy", "Ahanu", "Akecheta", "Alo", "Apenimon", "Ashkii", "Atohi", "Bemossed", "Bidziil", "Chatam", "Chesmu", "Cheveyo", "Cheyenne", "Chogan", "Ciqala", "Cochise", "Colville", "Dakota", "Dichali", "Dyami", "Elan", "Elsu", "Enapay", "Etchemin", "Etu", "Gad", "Gawonii", "Gosheven", "Hania", "Helaku", "Hiamovi", "Hinto", "Holata", "Honovi", "Huritt", "Illanipi", "Jacy", "Kaga", "Kai", "Kele", "Kiyiyah", "Knoton", "Kohana", "Koi", "Lakota", "Lallo", "Lansa", "Len", "Lenno", "Lokni", "Lonato", "Mahkah", "Mahpee", "Maska", "Mikasi", "Misu", "Mohe", "Mojag", "Motega", "Mukki", "Nashoba", "Nebraska", "Nigan", "Nikan", "Nitis", "Nocona", "Nodin", "Odakota", "Ogima", "Ohanzee", "Ohio", "Olathe", "Omaha", "Onawa", "Oneida", "Oni", "Onida", "Opa", "Oya", "Paco", "Pallaton", "Patamon", "Patwin", "Paytah", "Pilan", "Powa", "Quanah", "Qued", "Quelatikan", "Qunnoune", "Rowtag", "Sahale", "Sakima", "Shaman", "Shilah", "Taimah", "Tansy", "Tate", "Tennessee", "Thaonawyuthe", "Tyee", "Uhubitu", "Unaduti", "Unkas", "Utatci", "Waban", "Wahid", "Wamblee", "Wapi", "Wicasa", "Wohehiv", "Wuyi", "Wynono", "Wyome", "Yahto", "Yancy", "Yas", "Yotimo", "Yottoko", "Youkioma", "Yuma", "Yutu", "Zitkaduta"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 /*
 function irishGivenNamesMale()

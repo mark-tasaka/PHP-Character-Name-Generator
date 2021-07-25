@@ -396,6 +396,18 @@ function middleEnglishGivenNamesFemale()
 }
 
 
+function nativeAmericanGivenNamesFemale()
+{
+    $giveNames = array ( "Abeque", "Abey", "Abeytu", "Adoette", "Adsila", "Aiyana", "Alameda", "Alaqua", "Alawa", "Aleshanee", "Algoma", "Alsoomse", "Amadahy", "Amitola", "Anaba", "Angeni", "Aponi", "Aquene", "Awendela", "Ayasha", "Ayita", "Bly", "Chapa", "Chenoa", "Cheyenne", "Chimalis", "Dakota", "Doli", "Donoma", "Dyani", "Elu", "Enola", "Etenia", "Eyota", "Fala", "Galilahi", "Genesee", "Hachi", "Haiwee", "Halona", "Honovi", "Hurit", "Huyana", "Istas", "Ituha", "Kachine", "Kai", "Kaniya", "Kanti", "Karmiti", "Kilenya", "Kimama", "Kimimela", "Kiona", "Kishi", "Koko", "Koleyn", "Kwanita", "Labdhi", "Lahoma", "Lakota", "Leotie", "Lequoia", "Liluye", "Liseli", "Litonya", "Lomasi", "Luyu", "Macha", "Magena", "Mahala", "Mai", "Maka", "Makya", "Malina", "Mapiya", "Meda", "Miakoda", "Migisi", "Mika", "Mitena", "Mitexi", "Nahimana", "Nara", "Nascha", "Nasnan", "Nata", "Nayeli", "Netis", "Nita", "Nitika", "Nituna", "Nokomis", "Nuna", "Nuttah", "Ohio", "Olathe", "Olisa", "Onawa", "Oneida", "Oni", "Onida", "Opa", "Pala", "Pana", "Pelipa", "Pinquana", "Pocahontas", "Quanah", "Sahyko", "Sakari", "Sakima", "Salali", "Satinka", "Sequoia", "Shada", "Shako", "Shania", "Shaniya", "Shasta", "Shima", "Shysie", "Sihu", "Snana", "Sokanon", "Sora", "Soyala", "Taa", "Taborri", "Tacincala", "Tadewi", "Tadita", "Taima", "Taini", "Tainn", "Takoda", "Tala", "Tama", "Tamsyn", "Tareva-Chine'", "Tarsha", "Tawana", "Tayen", "Tazanna", "Tehya", "Tiva", "Tolinka", "Topanga", "Tuwa", "Unega", "Urika", "Usdi", "Utina", "Wachiwi", "Waneta", "Wapeka", "Wapin", "Wasula", "Wateka", "Wawetseka", "Weayaya", "Weetamoo", "Winema", "Wyanet", "Wynonah", "Wyome", "Yalika", "Yanaha", "Yoki", "Zabana", "Zaltana", "Zonta"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 
 

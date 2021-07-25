@@ -129,6 +129,10 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = middleEnglishGivenNamesMale();
             }
+            else if($backgroundGiven === 28)
+            {
+                $firstName = nativeAmericanGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -248,6 +252,10 @@ function getName($select, $originGiven, $originSurname, $sex)
             else if($backgroundGiven === 27)
             {
                 $firstName = middleEnglishGivenNamesFemale();
+            }
+            else if($backgroundGiven === 28)
+            {
+                $firstName = nativeAmericanGivenNamesFemale();
             }
             else
             {
@@ -376,6 +384,10 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 29)
         {
             $lastName = scottishSurnames();
+        }
+        else if($backgroundSurname === 30)
+        {
+            $lastName = slavicSurnames();
         }
         else
         {
@@ -523,6 +535,11 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 27:
             $firstName = "Middle English";
             break;
+            
+        case 28:
+            $firstName = "Native American";
+            break;
+                                     
                                             
                                                                         
         default:
@@ -652,6 +669,10 @@ function getNameDescript($originGiven, $originSurname, $sex)
             
         case 29:
             $lastName = "Scottish";
+            break;   
+            
+        case 30:
+            $lastName = "Slavic";
             break;   
         
                                                         

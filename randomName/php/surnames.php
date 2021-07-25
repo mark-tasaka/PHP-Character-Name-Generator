@@ -433,6 +433,18 @@ function scottishSurnames()
     
 }
 
+function slavicSurnames()
+{
+    $surname = array ("Dulik", "Dulka", "Hennigar", "Kalchik", "Kamen", "Kaschak", "Kobliska", "Kriska", "Marta", "Nemitz", "Ourada", "Ouradnik", "Petska", "Sekelsky", "Sofka", "Spiva", "Stefka", "Telep", "Velky"
+    );
+
+    $select = rand(0, (count($surname) - 1) );
+
+    $name = $surname[$select];
+
+    return $name;
+    
+}
 
 
 
