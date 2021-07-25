@@ -113,6 +113,22 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = italianGivenNamesMale();
             }
+            else if($backgroundGiven === 24)
+            {
+                $firstName = japaneseGivenNamesMale();
+            }
+            else if($backgroundGiven === 25)
+            {
+                $firstName = koreanGivenNamesMale();
+            }
+            else if($backgroundGiven === 26)
+            {
+                $firstName = latinGivenNamesMale();
+            }
+            else if($backgroundGiven === 27)
+            {
+                $firstName = middleEnglishGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -216,6 +232,22 @@ function getName($select, $originGiven, $originSurname, $sex)
             else if($backgroundGiven === 23)
             {
                 $firstName = italianGivenNamesFemale();
+            }
+            else if($backgroundGiven === 24)
+            {
+                $firstName = japaneseGivenNamesFemale();
+            }
+            else if($backgroundGiven === 25)
+            {
+                $firstName = koreanGivenNamesFemale();
+            }
+            else if($backgroundGiven === 26)
+            {
+                $firstName = latinGivenNamesFemale();
+            }
+            else if($backgroundGiven === 27)
+            {
+                $firstName = middleEnglishGivenNamesFemale();
             }
             else
             {
@@ -328,6 +360,22 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 25)
         {
             $lastName = polishSurnames();
+        }
+        else if($backgroundSurname === 26)
+        {
+            $lastName = portugueseSurnames();
+        }
+        else if($backgroundSurname === 27)
+        {
+            $lastName = russianSurnames();
+        }
+        else if($backgroundSurname === 28)
+        {
+            $lastName = scandinavianSurnames();
+        }
+        else if($backgroundSurname === 29)
+        {
+            $lastName = scottishSurnames();
         }
         else
         {
@@ -459,7 +507,23 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 23:
             $firstName = "Italian";
             break;
-                                
+            
+        case 24:
+            $firstName = "Japanese";
+            break;
+            
+        case 25:
+            $firstName = "Korean";
+            break;
+
+        case 26:
+            $firstName = "Latin";
+            break;
+             
+        case 27:
+            $firstName = "Middle English";
+            break;
+                                            
                                                                         
         default:
         $firstName = "99999999";
@@ -573,7 +637,23 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 25:
             $lastName = "Polish";
             break;      
-
+    
+        case 26:
+            $lastName = "Portuguese";
+            break;    
+            
+        case 27:
+            $lastName = "Russian";
+            break;   
+            
+        case 28:
+            $lastName = "Scandinavian";
+            break;   
+            
+        case 29:
+            $lastName = "Scottish";
+            break;   
+        
                                                         
         default:
         $lastName = "99999999";

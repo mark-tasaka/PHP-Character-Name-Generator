@@ -333,6 +333,62 @@ function italianGivenNamesMale()
     
 }
 
+
+function japaneseGivenNamesMale()
+{
+    $giveNames = array ("Akira", "Banko", "Banzan", "Bassui", "Benjiro", "Botan", "Chimon", "Chotan", "Dai", "Dai-In", "Daido", "Doryo", "Engu", "Enki", "Enmei", "Eryu", "Fudoki", "Fujita", "Genko", "Goro", "Hakaku", "Haru", "Hideaki", "Hiromasa", "Hiroshi", "Hisoka", "Hoshi", "Iachima", "Itsu", "Jikai", "Jiro", "Jiryu", "Joben", "Joji", "Jomei", "Junichiro", "Kado", "Kaisha", "Kakumyo", "Kanaye", "Kando", "Kane", "Kaori", "Kazuo", "Keitaro", "Kentaro", "Kin", "Kishi", "Kisho", "Kiyoshi", " Kogen", "Koichi", "Kozan", "Makoto", "Mamoru", "Manzo", "Mareo", "Maro", "Masahiro", "Masakazu", "Masao", "Masato", "Masatoshi", "Michio", "Minoru", "Montaro", "Morio", "Mu-nan", "Mugen", "Nan Shin", "Naoko", "Oki", "Raidon", "Rei", "Ringo", "Roka", "Ronin", "Ryogi", "Ryoichi", "Ryozo", "Ryuichi", "Saburo", "Seiichi", "Seiko", "Senichi", "Shinichi", "Shiro", "Shoichi", "Shuichi", "Shunichi", "Takeshi", "Taku", "Taro", "Tomo", "Toyo", "Unkan", "Usaku", "Washi", "Yasahiro", "Yasashiku", "Yasuo", "Yemon", "Yogi", "Yoshi", "Yoshifumi", "Yukio", "Yutaka", "Zen"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function koreanGivenNamesMale()
+{
+    $giveNames = array ("Daeshim", "Jintao", "Seung", "Yong-Sun", "Young-Ja", "Young-Jae"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function latinGivenNamesMale()
+{
+    $giveNames = array ("Ace", "Adeodatus", "Adrian", "Aemilius", "Africa", "Alban", "Aleron", "Amadeus", "Amando", "Amator", "Ames", "Amory", "Anthony", "Aquarius", "Aquila", "Arcadicus", "Archangelo", "Arden", "Aruiragus", "Atticus", "Auburn", "August", "Aurelius", "Auriga", "Austin", "Avis", "Barber", "Benedict", "Bennett", "Benvolio", "Blaze", "Boone", "Branch", "Caelum", "Caesar", "Caius", "Callistus", "Calvin", "Camillo", "Candidius", "Capricornus", "Capucius", "Carew", "Carnelian", "Cassius", "Cato", "Celesto", "Cepheus", "Cetus", "Chester", " Cicero", "Clarence", "Claude", "Clement", "Constantine", "Cooper", "Cordell", "Corin", "Cornelius", "Corvus", "Costante", "Crispin", "Cupid", "Curtis", "Cygnus", "Dacian", "Dante", "Decretas", "Delmore", "Desmond", "Dexter", "Dominick", "Domitus", "Donato", "Drake", "Duke", "Durand", "Eleutherius", "Ellery", "Emile", "Equinox", "Eridanus", "Estes", "Ethan", "Eusebius", "Evaristus", "Ezio", "Fabian", "Fabrizio", "Farrar", "Felix", "Ferris", "Feste", "Flavius", "Florian", "Formosus", "Furio", "Galloway", "Garner", "Gemini", " Gennaro", "Germanus", "Grady", "Graham", "Griffin", "Guiderius", "Harmon", "Hiemo", "Hilario", "Honorius", "Horace", "Hortensio", "Horton", "Iago", "Ignatius", "Innocent", "Janus", "Jarlath", "Javan", "Jermyn", "Jerome", "Julian", "Junius", "Kalvin", "Kasen", "Klemens", "Korvin", "Labhras", "Lamar", "Lamberto", "Laurence", "Lawrence", "Lester", "Levente", "Lionel", "Loren", "Lorne", "Lucas", "Lucian", "Lucius", "Lyon", "Mace", "Magic", "Magnus", "Major", "Malchidiel", "Mamillius", "Mar", "Marcade", "Marcellus", " March", "Marcus", "Margarelon", "Marinus", "Marius", "Mark", "Mars", "Martius", "Maurice", "Max", "Maxwell", "Mayer", "Mercury", "Merit", "Meriweather", "Mica", "Miner", "Montano", "Morris", "Myles", "Narciso", "Nemo", "Neptune", "Nero", "Nigel", "Nimbus", "Noble", "Nona", "Octavius", "Odina", "Oistin", "Oliver", "Oral", "Orde", "Orelious", "Oria", "Orien", "Oriole", "Orlando", "Osma", "Ovid", "Pandarus", "Patrick", "Paul", "Peace", "Pelagius", "Peregrin", "Peril", "Peter", "Philo", " Placido", "Platinum", "Pontius", "Prince", "Prosper", "Pryor", "Quade", "Quant", "Quentin", "Quirinus", "Rainier", "Ransom", "Regis", "Remus", "Renee", "Rex", "Roman", "Rufus", "Sabene", "Sabinian", "Sagittarius", "Saturn", "Sebastian", "Seleucus", "Sempronius", "Septimus", "Serge", "Severinus", "Sextus", "Silas", "Silvester", "Silvio", "Silvius", "Sol", "Solan", "Sparky", "Stacey", "Stanislaw", "Taurin", "Terence", "Thaddeaus", "Tony", "Tracy", "Trent", "Trenus", "Ulices", "Ulises", "Ulysses", "Unus", "Urban", " Ursan", "Val", "Valentin", "Valentine", "Valerian", "Valor", "Varrius", "Vergel", "Verlin", "Vern", "Vernon", "Vertumnus", "Vester", "Victor", "Vida", "Vigilius", "Vincent", "Vinson", "Vireo", "Virgil", "Vito", "Vitus", "Zachriel", "Zaniel", "Zanobi", "Zazel"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function middleEnglishGivenNamesMale()
+{
+    $giveNames = array ("Alden", "Alder", "Crockett", "Kemp", "Kipling", "Ladd", "Lander", "Lane", "Latimer", "Lyman", "Macon", "Mendel", "Mercer", "Mull", "Nye", "Perry", "Prentice", "Reeve", "Sanders", "Sawyer", "Skeet", "Sterne", "Swain", "Taylor", "Tennyson", "Todd", "Trey", "Tucker", "Turner", "Twain", "Tyler", "Vance", "Vane", "Wade", "Walker", "Yates"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
 /*
 function irishGivenNamesMale()
 {

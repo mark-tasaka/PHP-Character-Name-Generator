@@ -341,6 +341,64 @@ function italianGivenNamesFemale()
     
 }
 
+function japaneseGivenNamesFemale()
+{
+    $giveNames = array ("Ai", "Aiko", "Akako", "Akanah", "Aki", "Akina", "Akiyama", "Amarante", "Amaya", "Aneko", "Anzan", "Anzu", "Aoi", "Asa", "Ayame", "Bankei", "Chika", "Chinshu", "Chiyo", "Cho", "Chorei", "Dai", "Eido", "Etsu", "Fuyo", "Gyo Shin", "Hakue", "Hama", "Hanako", "Haya", "Hisa", "Hoshi", "Ima", "Ishi", "Iva", "Jakushitsu", "Jimin", "Jin", "JoMei", "Kaede", "Kagami", "Kaida", "Kaiya", "Kameko", "Kamin", "Kane", "Kaori", "Kaoru", "Kata", "Kaya", " Kei", "Keiko", "Kiaria", "Kichi", "Kiku", "Kimi", "Kin", "Kioko", "Kira", "Kita", "Kiwa", "Kiyoshi", "Koge", "Kogen", "Kohana", "Koto", "Kozue", "Kuma", "Kumi", "Kumiko", "Kuniko", "Kura", "Kyoko", "Leiko", "Machi", "Machiko", "Maeko", "Maemi", "Mai", "Maiko", "Makiko", "Mamiko", "Mariko", "Masago", "Masako", "Matsuko", "Mayako", "Mayuko", "Michi", "Michiko", "Midori", "Mieko", "Mihoko", "Mika", "Miki", "Minako", "Mine", "Misako", "Mitsuko", "Miwa", " Miya", "Miyoko", "Miyuki", "Momoko", "Mutsuko", "Myoki", "Nahoko", "Nami", "Nanako", "Nanami", "Naoko", "Nariko", "Natsuko", "Natsuko", "Nayoko", "Nishi", "Nori", "Noriko", "Nozomi", "Nyoko", "Oki", "Rai", "Raku", "Rei", "Reiko", "Ren", "Renora", "Rieko", "Rikako", "Riku", "Rinako", "Rini", "Risako", "Roshin", "Rumiko", "Ruri", "Ryoko", "Sachi", "Sachiko", "Sada", "Saeko", "Saiun", "Saki", "Sakiko", "Sakuko", "Sakura", "Sakurako", "Sanako", "Sasa", "Sashi", " Sato", "Satoko", "Sawa", "Sayo", "Sayoko", "Seki", "Shika", "Shikah", "Shina", "Shinko", "Shoko", "Sorano", "Suki", "Sumi", "Tadako", "Taido", "Taka", "Takako", "Takara", "Taki", "Tamaka", "Tamiko", "Tanaka", "Taney", "Tani", "Taree", "Tazu", "Tennen", "Tetsu", "Tokiko", "Tomi", "Tomiko", "Tora", "Tori", "Toyo", "Umeko", "Usagi", "Wakana", "Washi", "Yachi", "Yaki", "Yama", "Yasu", "Yayoi", "Yei", "Yoi", "Yoko", "Yori", "Yoshiko", "Yuka", "Yukako", "Yukiko", "Yumi", "Yumiko", "Yuri", "Yuriko", "Yutsuko", "Zadhiya"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function koreanGivenNamesFemale()
+{
+    $giveNames = array ("Cho", "Chon", "HeeWon", "Jeong", "Joo Mi", "Min", "Moon", "Shin", "Soo", "Sun"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function latinGivenNamesFemale()
+{
+    $giveNames = array ( "Abby", "Ada", "Aderes", "Adora", "Adrienne", "Aemilia", "Affinity", "Aimee", "Alba", "Allegra", "Alma", "Amanda", "Amity", "Amory", "Amriel", "Amy", "Antlia", "Antonia", "April", "Aqualina", "Aquamarine", "Arbor", "Arden", "Aril", "Arva", "Auburn", "Augusta", "Aurelia", "Autumn", "Ava", "Avalon", "Barbara", "Beata", "Beatrice", "Bellona", "Benedetta", "Blase", "Calcite", "Calendula", "Callis", "Cambria", "Camille", "Campbell", "Candida", "Candra", "Cara", "Carey", "Carina", "Carisa", "Carla", " Carnelian", "Cassiel", "Cecilia", "Celeste", "Cerelia", "Charity", "Chastity", "Cheridah", "Citrine", "Claire", "Clementine", "Colomba", "Comfort", "Compassion", "Concepción", "Concordia", "Constance", "Coral", "Cordelia", "Corky", "Cornelia", "Corrina", "Dabria", "Daisy", "Danica", "Delinda", "Desiree", "Dextra", "Diana", "Dido", "Diella", "Dillian", "Diva", "Dolores", "Donna", "Emily", "Enza", "Ermine", "Esme", "Essence", "Estelle", "Eternal", "Eustacia", "Faith", "Fantasia", "Fawn", "Felicia", "Feronia", "Fidelity", "Flavia", " Florence", "Fortitude", "Fortuna", "Franca", "Fulvia", "Garnet", "Gemma", "Genesis", "Gill", "Gillian", "Ginger", "Gloria", "Grace", "Gratia", "Gustava", "Heliotrope", "Hester", "Honesty", "Honor", "Hortense", "Humbleness", "Humility", "Imogene", "Integrity", "Ivory", "Jae", "Jillian", "Jocosa", "Jovanna", "Joy", "Joyce", "Julia", "June", "Juniper", "Juno", "Justice", "Kadenza", "Kalare", "Kambrea", "Kambria", "Karise", "Karlee", "Karly", "Karmen", "Katarina", "Khara", "Kira", "Kitty", "Konstance", "Kordell", " Lacey", "Lachesis", "Laetitia", "Lalo", "Lara", "Laraine", "Lasthenia", "Latisha", "Latonia", "Laura", "Laurinda", "Laveda", "Lavina", "Lavinia", "Lawrence", "Leann", "Leauna", "Lella", "Leola", "Leta", "Leticia", "Letitia", "Levana", "Libra", "Licia", "Lilian", "Liliana", "Lilianna", "Lilliana", "Lillias", "Lily", "Lita", "Livi", "Lora", "Lori", "Lorinda", "Lotta", "Lottie", "Luce", "Lucille", "Lucinda", "Lucrece", "Lucretia", "Lucy", "Luka", "Lumina", "Luna", "Lupe", "Lynnea", "Mabel", " Madonna", "Mae", "Maeve", "Magna", "Magnolia", "Marcella", "Marcia", "Maren", "Maricel", "Marina", "Maris", "Marissa", "Martina", "Maxine", "May", "Medea", "Mei", "Melba", "Melina", "Mercedes", "Merit", "Messina", "Meta", "Minerva", "Mira", "Mirabelle", "Miranda", "Modestus", "Modesty", "Monica", "Muriel", "Myra", "Napea", "Narda", "Nasia", "Natalie", "Neci", "Necia", "Nedra", "Nerissa", "Nevada", "Nigella", "Nivea", "Noble", "Nohely", "Nola", "Noletta", "Nona", "Nonnita", "Norma", " Nova", "Nydia", "Octavia", "Odina", "Oistin", "Olive", "Ondine", "Oralia", "Orchid", "Oria", "Oria", "Oriana", "Orianna", "Oriole", "Orla", "Orlanda", "Orsa", "Ortensia", "Osma", "Ova", "Paula", "Pax", "Pearl", "Persis", "Petronella", "Petula", "Pia", "Poppy", "Portia", "Priscilla", "Prudence", "Quartilla", "Quinella", "Quintessa", "Quintina", "Quirina", "Quirita", "Quita", "Rain", "Regina", "Renata", "Renita", "Revelation", "Rhea", "Risa", "Rosanne", "Rose", "Rue", "Sabana", "Sabina", " Nova", "Nydia", "Octavia", "Odina", "Oistin", "Olive", "Ondine", "Oralia", "Orchid", "Oria", "Oria", "Oriana", "Orianna", "Oriole", "Orla", "Orlanda", "Orsa", "Ortensia", "Osma", "Ova", "Paula", "Pax", "Pearl", "Persis", "Petronella", "Petula", "Pia", "Poppy", "Portia", "Priscilla", "Prudence", "Quartilla", "Quinella", "Quintessa", "Quintina", "Quirina", "Quirita", "Quita", "Rain", "Regina", "Renata", "Renita", "Revelation", "Rhea", "Risa", "Rosanne", "Rose", "Rue", "Sabana", "Sabina", " Tosca", "Toshi", "Tosia", "Tranquility", "Tricia", "Trini", "Trinity", "Trisha", "Trista", "Tristana", "Tristessa", "Tryphena", "Ultima", "Una", "Undine", "Uny", "Urbana", "Ursula", "Valencia", "Valentine", "Valerie", "Valisa", "Valonia", "Valora", "Vanecia", "Venice", "Vera", "Verda", "Verena", "Verity", "Vernice", "Veronica", "Vesper", "Vesta", "Vestal", "Vevina", "Victoria", "Vidonia", "Vienna", "Vincentia", "Violet", "Virgilia", "Virginia", "Virgo", "Viridis", "Vita", "Vivian", "Viviefont", "Zama", "Zanna", " Zea", "Zinnia", "Zona"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function middleEnglishGivenNamesFemale()
+{
+    $giveNames = array ("Amiable", "Cavanaugh", "Citrine", "Doe", "Knowledge", "Lane", "Mercy", "Merry", "Scarlet"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+
+
 /*
 function irishGivenNamesFemale()
 {
