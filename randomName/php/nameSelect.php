@@ -133,6 +133,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = nativeAmericanGivenNamesMale();
             }
+            else if($backgroundGiven === 29)
+            {
+                $firstName = norseGivenNamesMale();
+            }
+            else if($backgroundGiven === 30)
+            {
+                $firstName = oldEnglishGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -256,6 +264,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             else if($backgroundGiven === 28)
             {
                 $firstName = nativeAmericanGivenNamesFemale();
+            }
+            else if($backgroundGiven === 29)
+            {
+                $firstName = norseGivenNamesFemale();
+            }
+            else if($backgroundGiven === 30)
+            {
+                $firstName = oldEnglishGivenNamesFemale();
             }
             else
             {
@@ -388,6 +404,10 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 30)
         {
             $lastName = slavicSurnames();
+        }
+        else if($backgroundSurname === 31)
+        {
+            $lastName = spanishSurnames();
         }
         else
         {
@@ -539,6 +559,14 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 28:
             $firstName = "Native American";
             break;
+            
+        case 29:
+            $firstName = "Norse";
+            break;
+            
+        case 30:
+            $firstName = "Old English";
+            break;
                                      
                                             
                                                                         
@@ -674,6 +702,11 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 30:
             $lastName = "Slavic";
             break;   
+            
+        case 31:
+            $lastName = "Spanish";
+            break;   
+        
         
                                                         
         default:

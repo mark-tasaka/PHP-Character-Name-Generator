@@ -401,6 +401,37 @@ function nativeAmericanGivenNamesMale()
     
 }
 
+
+function norseGivenNamesMale()
+{
+    $giveNames = array ("Balder", "Dana", "Freyr", "Gareth", "Haldor", "Hardicanute", "Hogarth", "Holm", "Hsin", "Hume", "Kelby", "Ker", "Lamont", "Magne", "Oda", "Oddvar", "Odin", "Ove", "Quimby", "Ragnar", "Sutherland", "Terje", "Thurston", "Ulfred", "Unni", "Volund", "Yongvar"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function oldEnglishGivenNamesMale()
+{
+    $giveNames = array ("Ackley", "Acton", "Addison", "Adger", "Aiken", "Alcott", "Alder", "Aldrich", "Alfred", "Allard", "Allston", "Alton", "Alvertos", "Alvin", "Arledge", "Arley", "Arlo", "Armstrong", "Arundel", "Ashley", "Athelstan", "Averill", "Awarnach", "Ballard", "Bancroft", "Barclay", "Barnett", "Beacher", "Beardsley", "Bede", "Beldon", "Bentley", "Birch", "Blake", "Booker", "Booth", "Borden", "Bradley", "Brandon", "Brent", "Brewster", "Brigham", "Brinley", "Brock", "Bromley", "Brook", "Buckley", "Bud", "Burgess", "Burne", " Burt", "Buster", "Cade", "Calder", "Caldwell", "Calhoun", "Calvert", "Cameron", "Carden", "Carleton", "Carlyle", "Carter", "Carvell", "Catcher", "Cedric", "Chad", "Channing", "Charles", "Chevy", "Chilton", "Claiborne", "Clark", "Cleveland", "Clifford", "Colbert", "Colborn", "Colter", "Cooper", "Copper", "Courtland", "Crawford", "Creighton", "Cromwell", "Currier", "Dale", "Darren", "Darwin", "Dayton", "Dean", "Digby", "Donald", "Dorset", "Douglas", "Dover", "Doyle", "Dudley", "Duncan", "Durward", "Dustin", "Dwight", " Earl", "Edgar", "Edmund", "Edsel", "Edward", "Edwin", "Egerton", "Elder", "Eldon", "Eldridge", "Elmer", "Elton", "Emerson", "Erskine", "Esmond", "Fairfax", "Farley", "Farrell", "Fielding", "Ford", "Fuller", "Fulton", "Gilford", "Goldman", "Gordon", "Gower", "Gray", "Hadden", "Hadley", "Hagley", "Halbert", "Haley", "Hall", "Hallam", "Halsey", "Hamilton", "Hannibal", "Hardy", "Harlan", "Harmon", "Harry", "Hastings", "Hawk", "Hawthorne", "Hayden", "Hayes", "Haywood", "Hedley", "Hendrick", "Henley", " Herbert", "Hilton", "Holden", "Hollis", "Horton", "Hudson", "Hulk", "Humphrey", "Hunt", "Hutton", "Hyatt", "Irving", "Ives", "Kenelm", "Kenley", "Kent", "Kenton", "Keyon", "Kim", "Kimberley", "King", "Kinsey", "Kipp", "Knox", "Landon", "Lang", "Lawson", "Layton", "Lee", "Legolas", "Leland", "Lincoln", "Lind", "Litton", "Llewellyn", "Lyndon", "Lyre", "Mace", "Madison", "Maitland", "Makepeace", "Manley", "Manning", "Marden", "Marlow", "Marsden", "Mather", "Mead", "Millard", "Miller", " Milton", "Morven", "Nash", "Nedes", "Nelson", "Newell", "Newman", "North", "Nyle", "Oakley", "Ogden", "Olin", "Orman", "Osbert", "Osmond", "Oswald", "Oswin", "Oxford", "Packard", "Palmer", "Parker", "Parr", "Payton", "Pell", "Penley", "Penn", "Pierson", "Preston", "Putnam", "Rabbit", "Radcliff", "Rae", "Raleigh", "Ralph", "Ramsey", "Ransford", "Ransley", "Ransom", "Raven", "Ravinger", "Rawlins", "Rayburn", "Raymond", "Read", "Redford", "Reginald", "Remington", "Rider", "Ridley", "Rigby", " Ripley", "Rishley", "Robert", "Rochester", "Rodman", "Rodney", "Rowan", "Rudyard", "Rutherford", "Rylan", "Sandon", "Sanford", "Scott", "Seabert", "Seward", "Shaw", "Shelley", "Shepherd", "Sherlock", "Sherman", "Sherwood", "Shipley", "Siddel", "Slade", "Snowden", "Speck", "Spencer", "Spike", "Stanley", "Stokley", "Stroud", "Studs", "Tanner", "Tate", "Terrel", "Thane", "Thatcher", "Thorne", "Thorpe", "Thurlow", "Tomkin", "Tostig", "Townsend", "Tranter", "Trent", "Tripp", "Truman", "Tye", "Tyne", "Wakefield", " Wallace", "Walton", "Washington", "Watson", "Waverly", "Wayland", "Wayne", "Webster", "Wells", "Wesley", "West", "Wetherby", "Wheaton", "Wheeler", "Whit", "Whitfield", "Wilfred", "Winifred", "Winslow", "Winston", "Winter", "Winthrop", "Woodrow", "Wright", "Wyatt", "Wylie", "Wyndam", "York"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+
 /*
 function irishGivenNamesMale()
 {

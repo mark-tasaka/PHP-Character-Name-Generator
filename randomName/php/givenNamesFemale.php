@@ -410,6 +410,33 @@ function nativeAmericanGivenNamesFemale()
 }
 
 
+function norseGivenNamesFemale()
+{
+    $giveNames = array ("Bo", "Frigg", "Grid", "Gro", "Guro", "Haley", "Heidrun", "Hela", "Magna", "Oda", "Ove", "Ragnhild", "Unni"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+function oldEnglishGivenNamesFemale()
+{
+    $giveNames = array ( "Afton", "Agrona", "Aida", "Aislinn", "Alcott", "Alden", "Alvina", "Arantxa", "Ariana", "Arleigh", "Ashley", "Aspen", "Audrey", "Avon", "Bailey", "Beverly", "Blaine", "Blossom", "Blythe", "Brea", "Brenda", "Brook", "Buffy", "Cady", "Cameron", "Chelsea", "Corliss", "Courtney", "Demelza", "Eartha", "Edda", "Edith", "Ethel", "Farrah", "Fern", "Fiona", "Godiva", "Golda", "Halsey", "Harmony", "Hazel", "Hedwig", "Hertha", "Hollace", "Holly", "Hope", "Idina", "Isolda", "Ivy", "Jocelyn", " Kim", "Kimberley", "Kyla", "Lee", "Leigh", "Leslie", "Lindsay", "Locke", "Love", "Luella", "Maida", "Mirth", "Missy", "Misty", "Nara", "Obsession", "Radella", "Sacrifice"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 /*
 function irishGivenNamesFemale()
