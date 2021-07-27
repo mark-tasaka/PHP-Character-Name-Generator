@@ -438,6 +438,23 @@ function oldEnglishGivenNamesFemale()
     
 }
 
+
+function oldFrenchGivenNamesFemale()
+{
+    $giveNames = array ("Chance", "Chantal", "Delight", "Fay", "Frances", "Jewel", "Musetta", "Olive", "Raissa", "Sojourner"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+
 /*
 function irishGivenNamesFemale()
 {

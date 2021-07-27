@@ -430,6 +430,18 @@ function oldEnglishGivenNamesMale()
 }
 
 
+function oldFrenchGivenNamesMale()
+{
+    $giveNames = array ("Anicetus", "Bassett", "Bayard", "Bellamy", "Boden", "Borden", "Boswell", "Brigham", "Cable", "Chancellor", "Channing", "Chase", "Chivalry", "Corbin", "Curtis", "Darrell", "Flannery", "Fletcher", "Forrest", "Foster", "Francis", "Franklin", "Jay", "Jeffrey", "Justin", "Leroy", "Lyle", "Macy", "Marlon", "Maslin", "Oriel", "Percival", "Prewitt", "Quennel", "Roy", "Telo"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 
 /*
