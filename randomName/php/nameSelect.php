@@ -145,6 +145,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = oldFrenchGivenNamesMale();
             }
+            else if($backgroundGiven === 32)
+            {
+                $firstName = oldGermanGivenNamesMale();
+            }
+            else if($backgroundGiven === 33)
+            {
+                $firstName = oldNorseGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -280,6 +288,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             else if($backgroundGiven === 31)
             {
                 $firstName = oldFrenchGivenNamesFemale();
+            }
+            else if($backgroundGiven === 32)
+            {
+                $firstName = oldGermanGivenNamesFemale();
+            }
+            else if($backgroundGiven === 33)
+            {
+                $firstName = oldNorseGivenNamesFemale();
             }
             else
             {
@@ -420,6 +436,10 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 32)
         {
             $lastName = swedishSurnames();
+        }
+        else if($backgroundSurname === 33)
+        {
+            $lastName = swissSurnames();
         }
         else
         {
@@ -583,6 +603,15 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 31:
             $firstName = "Old French";
             break;
+            
+        case 32:
+            $firstName = "Old German";
+            break;
+            
+        case 33:
+            $firstName = "Old Norse";
+            break;
+                          
                                      
                                             
                                                                         
@@ -725,6 +754,10 @@ function getNameDescript($originGiven, $originSurname, $sex)
             
         case 32:
             $lastName = "Swedish";
+            break;   
+            
+        case 33:
+            $lastName = "Swiss";
             break;   
         
         

@@ -455,6 +455,33 @@ function oldFrenchGivenNamesFemale()
 
 
 
+function oldGermanGivenNamesFemale()
+{
+    $giveNames = array ("Aloysia", "Carla", "Carol", "Chay", "Ella", "Emiline", "Ernestine", "Etta", "Ida", "Leopolda", "Leyna", "Lorraine", "Louise", "Minna"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function oldNorseGivenNamesFemale()
+{
+    $giveNames = array ("Astrid", "Deila", "Gail", "Harper", "Kippi", "Nessa", "Olive", "Ronalda", "Sigrid", "Thora", "Valda"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
 /*
 function irishGivenNamesFemale()
 {

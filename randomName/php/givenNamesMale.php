@@ -444,6 +444,34 @@ function oldFrenchGivenNamesMale()
 }
 
 
+function oldGermanGivenNamesMale()
+{
+    $giveNames = array ("Adalbert", "Adalgiso", "Adelbert", "Adelfried", "Adelino", "Adelmio", "Adelmo", "Ademaro", "Ahren", "Aksel", "Alfonso", "Alice", "Aloysius", "Anselm", "Blaz", "Carl", "Carolus", "Conrad", "Engelbert", "Ernest", "Hamlet", "Harold", "Harvey", "Jarvis", "Leopold", "Orlantha"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function oldNorseGivenNamesMale()
+{
+    $giveNames = array ("Alvis", "Borg", "Gunnar", "Harper", "Kirk", "Leif", "Njord", "Olaf", "Oliver", "Oscar", "Ronald", "Roscoe", "Sigurd", "Sindri", "Skipp", "Thor", "Turpin"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
 /*
 function irishGivenNamesMale()
 {
