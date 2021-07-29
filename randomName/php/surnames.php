@@ -490,6 +490,20 @@ function swissSurnames()
 
 
 
+function turkishSurnames()
+{
+    $surname = array ("Aga", "Asker", "Aslan", "Barak", "Bata", "Beg", "Dogan", "Kaplan", "Kaya", "Koc", "Koca", "Kocak", "Malas", "Mogul", "Onder", "Osman", "Ozan", "Reis", "Sari", "Tabak", "Tata", "Yilmaz", "Younan"
+    );
+
+    $select = rand(0, (count($surname) - 1) );
+
+    $name = $surname[$select];
+
+    return $name;
+    
+}
+
+
 
 /*
 function italianSurnames()

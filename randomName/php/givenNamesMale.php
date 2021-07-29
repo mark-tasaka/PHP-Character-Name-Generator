@@ -472,6 +472,46 @@ function oldNorseGivenNamesMale()
 }
 
 
+function persianGivenNamesMale()
+{
+    $giveNames = array ("Abtin", "Ardalan", "Atash", "Azar", "Bahram", "Behdad", "Behruz", "Bijan", "Borna", "Caspar", "Cyrus", "Dareh", "Darius", "Davood", "Eskander", "Fazel", "Firouz", "Gaspar", "Kaspar", "Kaveh", "Khorshed", "Khortdad", "Murdad", "Nard", "Persepolis", "Rashne", "Ruhollah", "Sarosh", "Siamak", "Xerxes"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function polishGivenNamesMale()
+{
+    $giveNames = array ("Cerek", "Dobry", "Gerik", "Jacek", "Jarek", "Lech", "Ludoslaw", "Magnar", "Mandek", "Marcin", "Marek", "Nelek", "Olesia", "Ryzard", "Tanek", "Urjasz", "Waclaw", "Walenty", "Wlod", "Wojtek", "Zarek", "Zygmunt"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function polynesianGivenNamesMale()
+{
+    $giveNames = array ("Kalani", "Lauaki", "Lisiate", "Uhila", "Ulani", "Vala", "Valu", "Vea"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
 /*
 function irishGivenNamesMale()
 {
