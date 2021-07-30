@@ -525,6 +525,37 @@ function polynesianGivenNamesFemale()
 }
 
 
+function russianGivenNamesFemale()
+{
+    $giveNames = array ("Akelah", "Alexandrite", "Anya", "Bohdana", "Cyzarine", "Dusana", "Feodora", "Jelena", "Kisa", "Kiska", "Leena", "Lenya", "Lida", "Luba", "Marinka", "Mika", "Mila", "Misha", "Nadie", "Nickita", "Nika", "Oksana", "Olga", "Olien", "Raissa", "Sashenka", "Savina", "Sezja", "Sonia", "Svetlana", "Taneya", "Tanya", "Tatiana", "Vanka", "Vanya", "Verushka", "Vilhemina", "Yelena", "Yeva", "Yula", "Zagir", "Zasha", "Zdebka", "Zhenya", "Zilya"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function sanskritGivenNamesFemale()
+{
+    $giveNames = array ("Chandra", "Kalinda", "Kalpana", "Kama", "Karma", "Kashmir", "Leelea", "Lilac", "Malika", "Manjusha", "Nalini", "Opal", "Shobha", "Sitara", "Taruna"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+
+
 /*
 function irishGivenNamesFemale()
 {

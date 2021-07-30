@@ -165,6 +165,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = polynesianGivenNamesMale();
             }
+            else if($backgroundGiven === 37)
+            {
+                $firstName = russianGivenNamesMale();
+            }
+            else if($backgroundGiven === 38)
+            {
+                $firstName = sanskritGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -321,6 +329,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = polynesianGivenNamesFemale();
             }
+            else if($backgroundGiven === 37)
+            {
+                $firstName = russianGivenNamesFemale();
+            }
+            else if($backgroundGiven === 38)
+            {
+                $firstName = sanskritGivenNamesFemale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -468,6 +484,10 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 34)
         {
             $lastName = turkishSurnames();
+        }
+        else if($backgroundSurname === 35)
+        {
+            $lastName = ukranianSurnames();
         }
         else
         {
@@ -651,6 +671,14 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 36:
             $firstName = "Polynesian";
             break;
+            
+        case 37:
+            $firstName = "Russian";
+            break;
+            
+        case 38:
+            $firstName = "Sanskrit";
+            break;
                           
                                      
                                             
@@ -802,6 +830,10 @@ function getNameDescript($originGiven, $originSurname, $sex)
             
         case 34:
             $lastName = "Turkish";
+            break;   
+            
+        case 35:
+            $lastName = "Ukranian";
             break;   
         
         

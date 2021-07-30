@@ -512,6 +512,35 @@ function polynesianGivenNamesMale()
     
 }
 
+
+function russianGivenNamesMale()
+{
+    $giveNames = array ("Boris", "Dobry", "Dusan", "Egor", "Feodore", "Fyodor", "Gavrie", "Gleb", "Ivan", "Konstantin", "Kostas", "Kostya", "Lesta", "Magar", "Maksim", "Mikhail", "Miloslav", "Nikhil", "Oksana", "Olga", "Sacha", "Sarkis", "Semyon", "Sergei", "Timur", "Ulan", "Ustin", "Vadim", "Valeri", "Valerian", "Vanya", "Venedict", "Vladilen", "Vlas", "Wassily", "Xenik", "Yerik", "Yevgeni", "Yurchik", "Yuri"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function sanskritGivenNamesMale()
+{
+    $giveNames = array ("Arjun", "Jackal", "Jafar", "Krishna", "Kumar", "Mahatma", "Nanda", "Nataraj", "Rajiv", "Uttam", "Vasu", "Veda", "Yogi"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
 /*
 function irishGivenNamesMale()
 {

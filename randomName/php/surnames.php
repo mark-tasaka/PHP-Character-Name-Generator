@@ -504,6 +504,20 @@ function turkishSurnames()
 }
 
 
+function ukranianSurnames()
+{
+    $surname = array ("Anastas", "Andrich", "Antonich", "Babich", "Babyak", "Bagan", "Bagan", "Bagan", "Bahan", "Balaban", "Bandera", "Bandura", "Barnick", "Barno", "Bartosh", "Basara", "Bayuk", "Bereza", "Bilik", "Bilyk", "Boback", "Bodnar", "Boiko", "Bondar", "Bondarenko", "Borsch", "Borsuk", "Bortnick", "Borys", "Boyko", "Buchko", "Bucko", "Bula", "Burak", "Burick", "Cap", "Chaplin", "Chaplinski", "Choma", "Chop", "Chopp", "Chorney", "Chunko", "Chura", "Dacko", "Danek", "Danko", "Danyluk", "Davidovich", "Demchak", "Demchuk", "Demko", "Demyan", "Denis", "Denys", "Dobish", "Dombrowsky", "Domitrovich", "Dudik", "Dunay", "Dzik", "Dziuba", "Evanko", "Fedak", "Fedora", "Fedorchak", "Fedorka", "Fedorko", "Filas", "Franko", "Galey", "Gleba", "Gleba", "Gura", "Gurka", "Hawrylak", "Hawryluk", "Hopko", "Hresko", "Hricko", "Hritz", "Hudzik", "Iwanicki", "Jangula", "Kachur", "Kaluzny", "Kapinos", "Karmazin", "Karpenko", "Kazan", "Kitko", "Klukas", "Kohut", "Kolanko", "Komar", "Kopko", "Korol", "Kosko", "Kostenko", "Kostiuk", "Kostyk", "Koval", "Kovalenko", "Kovalski", "Kovalsky", "Kowalchuk", "Kozak", "Kozel", "Krasinski", "Kravec", "Kravets", "Krawchuk", "Krisko", "Kukura", "Kulaga", "Kulish", "Kurylo", "Kushnir", "Kuzma", "Kuzmich", "Lach", "Lipka", "Lipko", "Lisko", "Lubarsky", "Macey", "Malinski", "Malinsky", "Malko", "Marchuk", "Marko", "Markovich", "Martinovich", "Martyn", "Mastel", "Matey", "Medved", "Michalko", "Mihal", "Mihalko", "Mikita", "Mikulich", "Misko", "Misko", "Mitnick", "Molchan", "Moroz", "Mudry", "Novosel", "Olesky", "Ontko", "Panas", "Panasuk", "Panko", "Panko", "Pavelko", "Pavlik", "Pavlovich", "Pavlovsky", "Pawluk", "Pelech", "Perun", "Petrenko", "Petrik", "Petrovich", "Petrus", "Pitoniak", "Popovich", "Pribula", "Romanchuk", "Romanko", "Rudy", "Ruschak", "Rusinko", "Safko", "Savko", "Senko", "Shevchenko", "Shevchuk", "Slifko", "Slivka", "Slusar", "Soroka", "Stadnik", "Starkovich", "Stasiuk", "Stelmach", "Stepaniak", "Sukut", "Taras", "Tkach", "Tkachuk", "Truchan", "Trush", "Truss", "Tutko", "Van", "Vasko", "Vitko", "Volk", "Voloshin", "Volosin", "Voytko", "Walko", "Wasko", "Witko", "Wolsky", "Wozny", "Yurkovich", "Zahorchak", "Zahorik", "Zahorsky", "Zalesky", "Zaretsky", "Zelinski"
+    );
+
+    $select = rand(0, (count($surname) - 1) );
+
+    $name = $surname[$select];
+
+    return $name;
+    
+}
+
+
 
 /*
 function italianSurnames()
