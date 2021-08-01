@@ -532,11 +532,10 @@ function vietnameseSurnames()
 }
 
 
-
-/*
-function italianSurnames()
+function welshSurnames()
 {
-    $surname = array (
+    $surname = array ("Bach", "Balch", "Baughan", "Baughn", "Beavin", "Beddoe", "Beddow", "Bellin", "Belling", "Bellis", "Bellis", "Bennion", "Bethel", "Bethell", "Bevan", "Beynon", "Binion", "Binner", "Binnion", "Bithell", "Biven", "Bivin", "Blethen", "Bliven", "Blood", "Blower", "Bloyd", "Boliver", "Bonner", "Bowell", "Breckon", "Brice", "Broderick", "Bryn", "Brys", "Buell", "Bugh", "Bunner", "Caddell", "Caddick", "Cadigan", "Cadogan", "Cadwalader", "Cadwallader", "Cardiff", "Carew", "Carey", "Cattell", "Cecil", "Clough", "Cloyd", "Comey", "Conway", "Cornog", "Coslett", "Dacus", "Davies", "Day", "Days", "Dee", "Dew", "Dewey", "Dey", "Edris", "Elijah", "Elley", "Erwood", "Esau", "Evan", "Evans", "Evanson", "Eynon", "Faughn", "Firth", "Flint", "Flower", "Floyd", "Gaynor", "Geddings", "Gethin", "Gettings", "Gibby", "Gittings", "Gittings", "Gittins", "Glace", "Glas", "Glasscock", "Glines", "Glynn", "Goff", "Gotch", "Gough", "Gower", "Greenway", "Griff", "Griffin", "Griffith", "Griffiths", "Guild", "Guilliams", "Gwilliam", "Gwyn", "Gwynn", "Gwynne", "Hanmer", "Hargest", "Harries", "Harvard", "Havard", "Heaven", "Hennion", "Hier", "Hire", "Hovey", "Howell", "Howells", "Hughes", "Idle", "Keelan", "Kemble", "Kendrick", "Kerry", "Lace", "Lewis", "Lewison", "Llewellyn", "Llewelyn", "Lloyd", "Maddy", "Mathias", "Meredith", "Merrick", "Moore", "Mordecai", "More", "Morgan", "Morgans", "Morris", "Morse", "Mostyn", "Mower", "Myricks", "Nanney", "Nest", "Nevitt", "Nist", "Onion", "Owen", "Owens", "Palin", "Parry", "Pearce", "Pembroke", "Pendry", "Pennoyer", "Penry", "Perry", "Pew", "Pewitt", "Poovey", "Popkin", "Povey", "Powe", "Poyner", "Preddy", "Preece", "Price", "Prichard", "Prichett", "Priddy", "Priddy", "Priddy", "Priddy", "Pride", "Pritchard", "Pritchett", "Probert", "Prosser", "Prothero", "Protheroe", "Prothro", "Prowell", "Pryce", "Pugh", "Pumphrey", "Pye", "Rease", "Reece", "Rees", "Reese", "Rhees", "Rhoderick", "Rice", "Roderick", "Rosser", "Sayer", "Scurlock", "Sealy", "Seff", "Shone", "Tew", "Trahern", "Treharne", "Trevor", "Tudor", "Uren", "Urian", "Vaughan", "Vaughn", "Wathen", "Wiliams", "Wren", "Wynn", "Wynne", "Yale", "Yarwood"
+
     );
 
     $select = rand(0, (count($surname) - 1) );
@@ -547,6 +546,5 @@ function italianSurnames()
     
 }
 
-*/
 
 ?>

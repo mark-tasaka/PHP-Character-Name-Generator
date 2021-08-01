@@ -568,8 +568,32 @@ function scottishGivenNamesMale()
 }
 
 
+function slavicGivenNamesMale()
+{
+    $giveNames = array ("Casimir", "Duscha", "Evzen", "Gavril", "Ilie", "Jan", "Kostya", "Ludovic", "Marót", "Melik", "Mete", "Miroslav", "Mladen", "Oleg", "Ondrea", "Pavel", "Pavlos", "Pavo", "Peja", "Polixenes", "Polk", "Radman", "Reza", "Vaclav", "Vas", "Vencel", "Vlade", "Vladimir", "Volya", "Wenceslaus", "Wieslav", "Ziven", "Zorro", "Zorya", "Zydrunas"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 
+function spanishGivenNamesMale()
+{
+    $giveNames = array ("Agapetus", "Aimon", "Beltran", "Berto", "Bronco", "Cipriano", "Cisco", "Cortez", "Cruz", "Cuba", "Dario", "Desiderio", "Diego", "Dimos", "Fanuco", "Federico", "Fraco", "Francisco", "Frisco", "Gervasio", "Gig", "Gonzalo", "Guido", "Guillermo", "Hernan", "Hilario", "Ignado", "Isidro", "Jaguar", "Jair", "Javier", "Jerrold", "Juan", "Kiki", "Larenzo", "Lisandro", "Loredo", "Lorenzo", "Macario", "Malvolio", "Manuel", "Marjun", "Montana", "Montego", "Montel", "Montenegro", "Nasario", "Nemesio", "Neper", "Neron ", "Nicandro", "Noe", "Oihane", "Oleos", "Olindo", "Onofre", "Ora", "Oro", "Ovidio", "Pablo", "Paco", "Pancho", "Pedro", "Ponce", "Porfio", "Quico", "Quinto", "Quiqui", "Quito", "Reyes", "Reynaldo", "Rico", "Rio", "Rogelio", "Ryo", "Sagaz", "Salvador", "Santiago", "Saturnin", "Seferino", "Selestino", "Senon", "Sierra", "Tajo", "Urvano", "Vegas", "Venacio", "Vicente", "Vidal", "Xabat", "Xalvador", "Xaver", "Xaverius", "Xavier", "Xavion", "Xeres", "Ximen", "Zelipe", "Zenon"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 
 /*

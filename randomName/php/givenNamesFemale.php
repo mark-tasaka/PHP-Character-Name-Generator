@@ -581,6 +581,32 @@ function scottishGivenNamesFemale()
 }
 
 
+function slavicGivenNamesFemale()
+{
+    $giveNames = array ("Anezka", "Casmir", "Darva", "Kami", "Kamila", "Kamilia", "Karayan", "Katerina", "Katia", "Kisha", "Klavdia", "Kostya", "Lada", "Laima", "Lala", "Larya", "Lenka", "Lilia", "Lizina", "Lonna", "Malika", "Milena", "Nadine", "Natala", "Neda", "Neveah", "Nijole", "Ondrea", "Radinka", "Saskia", "Sveta", "Szitakota", "Tana", "Tania", "Tasya", "Teca", "Velika", "Vera", "Viera", "Yarmilla", "Zabel", "Zeljka", "Zora", "Zuzana"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function spanishGivenNamesFemale()
+{
+    $giveNames = array ("Adalia", "Aidia", "Alva", "Aureliano", "Belinda", "Bettina", "Carey", "Carlotta", "Coco", "Damita", "Delfina", "Duenna", "Dulcie", "Elvira", "Enriqua", "Esmerelda", "Esperanza", "Fe", "Fonda", "Frida", "Friera", "Gitana", "Gotzone", "Guadalupe", "Hermosa", "Ines", "Isabel", "Itzel", "Jade", "Jardena", "Julitta", "Kesare", "Kiki", "Lacienega", "Ladonna", "Landrada", "Lela", "Lenora", "Leya", "Liani", "Linda", "Lluvia", "Lola", "Lolita", "Luisa", "Lujuana", "Lupita", "Lux", "Luz", "Madeira ", "Madra", "Maitane", "Maitea", "Majondra", "Manda", "Manuela", "Mariola", "Mariposa", "Marisa", "Melosa", "Mio", "Mira", "Montana", "Mora", "Neiva", "Nerita", "Neva", "Nieve", "Nina", "Novia", "Novyanna", "Oihane", "Ora", "Osana", "Paca", "Paloma", "Placida", "Puma", "Querida", "Queta", "Quinceanos", "Raeka", "Rafaela", "Ramona", "Rana", "Ria", "Rigoberta", "Roana", "Rosalind", "Rosalynda", "Sally", "Salma", "Sancha", "Sancho", "Sandia", "Santana", "Santina", "Savana", "Savanna", "Seina ", "Senalda", "Senona", "Sierra", "Sofiel", "Solana", "Soledad", "Sonora", "Taina", "Tea", "Tejana", "Terceiro", "Teresa", "Texcean", "Tia", "Tierra", "Tina", "Tranquilia", "Trella", "Tulia", "Ursulina", "Verdad", "Veta", "Vina", "Xalbadora", "Xevera", "Xiao", "Xiomara", "Yadra", "Yomaris", "Zaneta", "Zarela", "Zarita", "Zaviera", "Zequinha", "Zuriaa", "Zurine"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
 
 /*
 function irishGivenNamesFemale()

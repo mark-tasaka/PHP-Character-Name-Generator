@@ -181,6 +181,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = scottishGivenNamesMale();
             }
+            else if($backgroundGiven === 41)
+            {
+                $firstName = slavicGivenNamesMale();
+            }
+            else if($backgroundGiven === 42)
+            {
+                $firstName = spanishGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -353,6 +361,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = scottishGivenNamesFemale();
             }
+            else if($backgroundGiven === 41)
+            {
+                $firstName = slavicGivenNamesFemale();
+            }
+            else if($backgroundGiven === 42)
+            {
+                $firstName = spanishGivenNamesFemale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -508,6 +524,10 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 36)
         {
             $lastName = vietnameseSurnames();
+        }
+        else if($backgroundSurname === 37)
+        {
+            $lastName = welshSurnames();
         }
         else
         {
@@ -707,6 +727,14 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 40:
             $firstName = "Scottish";
             break;
+            
+        case 41:
+            $firstName = "Slavic";
+            break;
+            
+        case 42:
+            $firstName = "Spanish";
+            break;
                           
                                      
                                             
@@ -867,9 +895,10 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 36:
             $lastName = "Vietnamese";
             break;   
-        
-        
-        
+            
+        case 37:
+            $lastName = "Welsh";
+            break;   
                                                         
         default:
         $lastName = "99999999";
