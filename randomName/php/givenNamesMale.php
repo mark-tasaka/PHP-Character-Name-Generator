@@ -540,6 +540,37 @@ function sanskritGivenNamesMale()
 }
 
 
+function scandinavianGivenNamesMale()
+{
+    $giveNames = array ("Amund", "Arvid", "Bjorn", "Canute", "Carolus", "Carson", "Dag", "Davin", "Denholm", "Dyre", "Egil", "Elvis", "Eric", "Filip", "Fortinbras", "Frey", "Haakon", "Hannes", "Igor", "Ingmar", "Ingvar", "Jarl", "Kaj", "Karr", "Kelsey", "Kerr", "Kettil", "Knute", "Kolby", "Lars", "Ludvig", "Lunt", "Mats", "Nels", "Niels", "Norb", "Odell", "Odo", "Olan", "Pal", "Quinby", "Rad", "Rune", "Skjøld", "Snorre", "Steinar", "Stieran", "Sven", "Sølve", "Thiassi", "Thoralf", "Thorin", "Thorstein", "Toste", "Tryggvi", "Ulffr", "Ulick", "Ull", "Ulrik", "Ulster", "Ultar", "Vali", "Vannevar", "Vanslow", "Vidar", "Vidkun", "Viggo", "Viljalmr", "Viljo", "Von", "Waage", "Wray", "Zvi"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function scottishGivenNamesMale()
+{
+    $giveNames = array ("Abhorson", "Adger", "Akira", "Alastair", "Athol", "Caithness", "Calen", "Camden", "Donalbain", "Drummond", "Duffy", "Edme", "Hamish", "Ian", "Kai", "Kameron", "Kane", "Keith", "Kelvin", "Kendrick", "Kenneth", "Kesley", "Kester", "Killian", "Kincaid", "Kyle", "Lachlan", "Laird", "Leith", "Lennox", "Leslie", "Logan", "Lundy", "Macbeth", "Macduff", "Mackinley", "Maclean", "Malcom", "Maxwell", "Mcaffie", "Mccauley", "McKinley", "Morrison", "Murdock", "Nairne", "Nolan", "Norval", "Ogilvy", "Oran", "Paden", "Polk", "Rab", "Rosling", "Ross", "Scully", "Stratton", "Tavis", "Teague", "Tearlach", "Tormod", "Tremayne", "Updike", "Wite"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+
+
+
 
 /*
 function irishGivenNamesMale()

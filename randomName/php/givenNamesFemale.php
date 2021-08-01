@@ -553,6 +553,32 @@ function sanskritGivenNamesFemale()
 }
 
 
+function scandinavianGivenNamesFemale()
+{
+    $giveNames = array ("Alleta", "Bo", "Dagna", "Dahlia", "Delling", "Eir", "Erica", "Evonne", "Freya", "Gudrun", "Gunda", "Halle", "Idonea", "Ingrid", "Jesen", "Karena", "Kelda", "Kelsey", "Kiersten", "Krystyn", "Lang", "Larsen", "Linnea", "Lis", "Lisolette", "Litzy", "Loki", "Lundy", "Malin", "Marny", "Mia", "Nissa", "Quenby", "Quinby", "Ran", "Ranveig", "Rinda", "Runa", "Sanna", "Savea", "Selma", "Signa", "Signild", "Sigrun", "Snøfrid", "Sonja", "Sorley", "Svea", "Synnove", "Thorborg", "Thurid", "Thyrrni", "Toril", "Toyah", "Tyra", "Ula", "Unn", "Valkyrie", "Vanja", "Vigdis", "Viola", "Ylwa", "Zainab"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function scottishGivenNamesFemale()
+{
+    $giveNames = array ("Ailsa", "Ainsley", "Artis", "Bonnie", "Campbell", "Davine", "Dree", "Enya", "Genene", "Ilisa", "Jeanne", "Kelcie", "Kelsi", "Lesley", "Leslie", "Logan", "Mairead", "Malvina", "Nairne", "Rae", "Sile", "Siusan", "Tira", "Vanora"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 
 

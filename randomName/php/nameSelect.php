@@ -173,6 +173,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = sanskritGivenNamesMale();
             }
+            else if($backgroundGiven === 39)
+            {
+                $firstName = scandinavianGivenNamesMale();
+            }
+            else if($backgroundGiven === 40)
+            {
+                $firstName = scottishGivenNamesMale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -337,6 +345,14 @@ function getName($select, $originGiven, $originSurname, $sex)
             {
                 $firstName = sanskritGivenNamesFemale();
             }
+            else if($backgroundGiven === 39)
+            {
+                $firstName = scandinavianGivenNamesFemale();
+            }
+            else if($backgroundGiven === 40)
+            {
+                $firstName = scottishGivenNamesFemale();
+            }
             else
             {
                 $firstName = "9999999999";
@@ -488,6 +504,10 @@ function getName($select, $originGiven, $originSurname, $sex)
         else if($backgroundSurname === 35)
         {
             $lastName = ukranianSurnames();
+        }
+        else if($backgroundSurname === 36)
+        {
+            $lastName = vietnameseSurnames();
         }
         else
         {
@@ -679,6 +699,14 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 38:
             $firstName = "Sanskrit";
             break;
+            
+        case 39:
+            $firstName = "Scandinavian";
+            break;
+            
+        case 40:
+            $firstName = "Scottish";
+            break;
                           
                                      
                                             
@@ -834,6 +862,10 @@ function getNameDescript($originGiven, $originSurname, $sex)
             
         case 35:
             $lastName = "Ukranian";
+            break;   
+            
+        case 36:
+            $lastName = "Vietnamese";
             break;   
         
         
