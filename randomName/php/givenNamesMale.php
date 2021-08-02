@@ -596,10 +596,9 @@ function spanishGivenNamesMale()
 }
 
 
-/*
-function irishGivenNamesMale()
+function swahiliGivenNamesMale()
 {
-    $giveNames = array (
+    $giveNames = array ("Jabari", "Jelani", "Khairi", "Rashid"
     );
 
     $select = rand(0, (count($giveNames) - 1) );
@@ -609,7 +608,88 @@ function irishGivenNamesMale()
     return $name;
     
 }
-*/
+
+
+function swedishGivenNamesMale()
+{
+    $giveNames = array ("Anderson", "Axel", "Balder", "Beck", "Burr", "Fiske", "Gustave", "Per", "Staffan"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function teutonicGivenNamesMale()
+{
+    $giveNames = array ("Kem", "Orinda", "Paxton", "Raeburn", "Renard", "Roald", "Sigfried", "Sigmund", "Stewart", "Theodoric", "Thierry", "Thurborn", "Udo", "Uland", "Ulf", "Walden", "Waldo", "Wendell", "Werner", "Wilbur", "Willard", "William", "Wolfgang", "Wolfram", "Yves"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function turkishGivenNamesMale()
+{
+    $giveNames = array ("Berk", "Muzaffer", "Nedim", "Nesim", "Nesip", "Okan", "Olcay", "Onan", "Ozan", "Ozaner", "Sadi", "Safak", "Selim", "Semih", "Sencer", "Sevilin", "Sinan", "Taner", "Tarkan", "Tecer", "Tercan", "Tezer", "Tuncer", "Ufuk", "Ugur", "Ulucan", "Yigit", "Yucel", "Zafer", "Zeki", "Zeren"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function vietnameseGivenNamesMale()
+{
+    $giveNames = array ("Chung", "Dong", "Duy", "Gan", "Keemo", "Lam", "Laman", "Long", "Phuoc", "Phuong", "Quan", "Quan Van", "Quang Tu", "Ritchell", "So", "Tai", "Thai", "Thong", "Tinh", "Tong", "Viet", "Vui", "Yen"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function welshGivenNamesMale()
+{
+    $giveNames = array ("Arthur", "Avon", "Baden", "Barry", "Bowen", "Bronwen", "Cade", "Cedric", "Clyde", "Conway", "Denzel", "Deverell", "Dewey", "Drew", "Dylan", "Emrick", "Floyd", "Fluellen", "Gavin", "Gawain", "Griffin", "Griffith", "Idris", "Kai", "Karey", "Kay", "Keith", "Kenn", "Kenrich", "Mabon", "Main", "Olwen", "Parry", "Pembroke", "Reese", "Rondell", "Sayer", "Sonnagh", "Tathal", "Tathan", "Teulyddog", "Tewdwr", "Trahaearn", "Tudfwlch", "Tudur", "Wren", "Ysgarran"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function yiddishGivenNamesMale()
+{
+    $giveNames = array ("Gershon", "Lantz", "Zaide", "Zalman", "Zindel"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
 
 
 

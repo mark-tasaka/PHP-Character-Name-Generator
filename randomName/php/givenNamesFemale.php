@@ -608,10 +608,10 @@ function spanishGivenNamesFemale()
 }
 
 
-/*
-function irishGivenNamesFemale()
+
+function swahiliGivenNamesFemale()
 {
-    $giveNames = array (
+    $giveNames = array ("Adia", "Barika", "Epua", "Kamaria", "Kesi", "Lakeisha", "Leta", "Nia", "Shani", "Simba", "Taariq", "Winda"
     );
 
     $select = rand(0, (count($giveNames) - 1) );
@@ -622,7 +622,86 @@ function irishGivenNamesFemale()
     
 }
 
-*/
+
+function swedishGivenNamesFemale()
+{
+    $giveNames = array ("Kajsa", "Maj", "Signe", "Trind", "Valborg"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function teutonicGivenNamesFemale()
+{
+    $giveNames = array ("Magan", "Minka", "Orinda", "Verena", "Waltraud", "Willa", "Yvette"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function turkishGivenNamesFemale()
+{
+    $giveNames = array ("Aylin", "Banu", "Jale", "Kari", "Karli", "Kerzi", "Kiral", "Nagihan", "Nerhim", "Nilgun", "Nuray", "Nurhan", "Olcay", "Onur", "Safak", "Sefika", "Semra", "Sezen", "Sibel", "Sila", "Zerdali"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function vietnameseGivenNamesFemale()
+{
+    $giveNames = array ("Cara", "Duyen", "Hong", "Khanh", "Kieu", "Lan", "Lieu", "Linh", "Loan", "Ly", "Mai", "Mychau", "Nguyet", "Nhi", "Nhu", "Nhung", "Nu", "Sen", "Tai", "Tam", "Tan", "Thao", "Thuy", "Tien", "Trang", "Trinh", "Tuyen", "Ut", "Xuan"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+function welshGivenNamesFemale()
+{
+    $giveNames = array ("Bryn", "Carey", "Caron", "Carys", "Ceridwen", "Crisiant", "Dylan", "Dyllis", "Emlyn", "Enid", "Genevieve", "Gladys", "Idelle", "Jensine", "Karrington", "Kordell", "Kynan", "Llewellyn", "Lowri", "Lyneth", "Mabyn", "Mairwen", "Merlyn", "Morgan", "Myfanwy", "Nerys", "Olwen", "Owena", "Reese", "Rhiamon", "Rhiannon", "Rhonwen", "Riannon", "Rowena", "Saeran", "Sian", "Sulwyn", "Taffy", "Teleri", "Telyn", "Tydfill", "Verran", "Vevay", "Wynn"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
+
+
+function yiddishGivenNamesFemale()
+{
+    $giveNames = array ("Bruna", "Kyla", "Leba", "Mindel", "Shayndel", "Syshe"
+    );
+
+    $select = rand(0, (count($giveNames) - 1) );
+
+    $name = $giveNames[$select];
+
+    return $name;
+    
+}
 
 
 ?>

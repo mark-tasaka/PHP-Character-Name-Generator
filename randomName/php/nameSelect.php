@@ -13,8 +13,41 @@ function getName($select, $originGiven, $originSurname, $sex)
     $gender = intval($sex);
     $nameGroup = array();
 
+    if($backgroundGiven === 100)
+    {
+        $randomFirstName = 0;
+    }
+    else
+    {
+        $randomFirstName = 1;
+    }
+
+
+    if($backgroundSurname === 100)
+    {
+        $randomLastName = 0;
+    }
+    else
+    {
+        $randomLastName = 1;
+    }
+
+
+
     for($i = 0; $i < $number; ++$i)
     {
+
+        if($randomFirstName === 0)
+        {
+            $backgroundGiven = rand(0, 49);
+        }
+
+        
+        if($randomFirstName === 0)
+        {
+            $backgroundSurname = rand(0, 37);
+        }
+
         if($gender === 0)
         {
             if($backgroundGiven === 0)
@@ -188,6 +221,34 @@ function getName($select, $originGiven, $originSurname, $sex)
             else if($backgroundGiven === 42)
             {
                 $firstName = spanishGivenNamesMale();
+            }
+            else if($backgroundGiven === 43)
+            {
+                $firstName = swahiliGivenNamesMale();
+            }
+            else if($backgroundGiven === 44)
+            {
+                $firstName = swedishGivenNamesMale();
+            }
+            else if($backgroundGiven === 45)
+            {
+                $firstName = teutonicGivenNamesMale();
+            }
+            else if($backgroundGiven === 46)
+            {
+                $firstName = turkishGivenNamesMale();
+            }
+            else if($backgroundGiven === 47)
+            {
+                $firstName = vietnameseGivenNamesMale();
+            }
+            else if($backgroundGiven === 48)
+            {
+                $firstName = welshGivenNamesMale();
+            }
+            else if($backgroundGiven === 49)
+            {
+                $firstName = yiddishGivenNamesMale();
             }
             else
             {
@@ -368,6 +429,34 @@ function getName($select, $originGiven, $originSurname, $sex)
             else if($backgroundGiven === 42)
             {
                 $firstName = spanishGivenNamesFemale();
+            }
+            else if($backgroundGiven === 43)
+            {
+                $firstName = swahiliGivenNamesFemale();
+            }
+            else if($backgroundGiven === 44)
+            {
+                $firstName = swedishGivenNamesFemale();
+            }
+            else if($backgroundGiven === 45)
+            {
+                $firstName = teutonicGivenNamesFemale();
+            }
+            else if($backgroundGiven === 46)
+            {
+                $firstName = turkishGivenNamesFemale();
+            }
+            else if($backgroundGiven === 47)
+            {
+                $firstName = vietnameseGivenNamesFemale();
+            }
+            else if($backgroundGiven === 48)
+            {
+                $firstName = welshGivenNamesFemale();
+            }
+            else if($backgroundGiven === 49)
+            {
+                $firstName = yiddishGivenNamesFemale();
             }
             else
             {
@@ -735,10 +824,39 @@ function getNameDescript($originGiven, $originSurname, $sex)
         case 42:
             $firstName = "Spanish";
             break;
-                          
-                                     
-                                            
-                                                                        
+            
+        case 43:
+            $firstName = "Swahili";
+            break;
+            
+        case 44:
+            $firstName = "Swedish";
+            break;
+            
+        case 45:
+            $firstName = "Teutonic";
+            break;
+            
+        case 46:
+            $firstName = "Turkish";
+            break;
+            
+        case 47:
+            $firstName = "Vietnamese";
+            break;
+            
+        case 48:
+            $firstName = "Welsh";
+            break;
+            
+        case 49:
+            $firstName = "Yiddish";
+            break;
+            
+        case 100:
+            $firstName = "Random";
+            break;
+                                                                    
         default:
         $firstName = "99999999";
 
@@ -898,6 +1016,10 @@ function getNameDescript($originGiven, $originSurname, $sex)
             
         case 37:
             $lastName = "Welsh";
+            break;   
+            
+        case 100:
+            $lastName = "Random";
             break;   
                                                         
         default:

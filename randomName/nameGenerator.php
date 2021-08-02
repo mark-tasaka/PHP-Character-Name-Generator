@@ -51,6 +51,20 @@ if(isset($_POST["theGender"]))
 
 }
 
+$totallyRandomName = 0;
+
+if(isset($_POST["theTotallyRandomName"]))
+{
+    $totallyRandomName = $_POST["theTotallyRandomName"];
+
+}
+
+if($totallyRandomName == 1)
+{
+    $givenName = 100;
+    $surname = 100;
+}
+
 $nameGenerated = array();
 $nameGenerated = getName($numberNames, $givenName, $surname, $gender);
 
@@ -109,12 +123,6 @@ else
     }
 }
 
-/*
-foreach($lastName2 as $name)
-{
-    echo "\"" . $name . "\", <br/>";
-}
-*/
 
 ?>
 
