@@ -3,6 +3,11 @@ The RPG character name generator is designed to create list of random names used
 
 
 
+Update 1.23: 2021-08-04
+
+A Launch Page has been added.
+
+
 Update 1.22: 2021-08-02
 
 Updates to nameSelect.php, givenNamesMale.php and givenNamesFemale.php.
