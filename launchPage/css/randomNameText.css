@@ -1,0 +1,295 @@
+body{
+	background-color: #303030;
+	font-size: 1.2em;
+	font-family: arial,verdana, helvetica,sans-serif;
+}
+
+
+section {
+	position: relative;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+aside {
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 75px;
+}
+
+article {
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 60px;
+}
+
+
+p{
+	color: #ffffff;
+}
+
+
+.formIputDescription{
+	color: #ffffff;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.content8 {
+    width: 500px;
+    margin: 0px auto;
+}
+
+
+.generatorButtonA2 {
+	margin-top: 30px;
+	/*display: inline-block;*/
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.generatorbuttonsC1 {
+    margin: 0px;
+    margin-left: 40px;
+}
+
+/*ID
+*/
+
+
+
+/*
+Class
+*/
+
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 100%;
+	height:auto;
+}
+
+
+
+/*Class*/
+
+.textGenBox{
+    float: right;
+    width: 60px;
+    margin-right: 120px;
+    font-size: 1em;
+}
+
+.content10 {
+    width: 400px;
+    margin: 0px auto;
+}
+
+/*ID*/
+#generate_randomText {
+	background-image: url(../images/submit_character1.png);
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+	background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+#generate_randomText:hover {
+	background-image: url(../images/submit_text.png);
+}
+
+
+#reset_generatorText{
+	background-image: url(../images/reset_character1.png);
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+	background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#reset_generatorText:hover{
+	background-image: url(../images/reset_character2.png);
+
+}
+
+
+
+
+#generate_characters2 {
+	background-image: url(../images/submit_character1.png);
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+	background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#generate_characters2:hover {
+	background-image: url(../images/submit_character2.png);
+
+}
+
+
+#reset_generator2{
+	background-image: url(../images/reset_character1.png);
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+	background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#reset_generator2:hover{
+	background-image: url(../images/reset_character2.png);
+
+}
+
+
+/*Class*/
+
+.nameGenBox{
+    float: left;
+    width: 250px;
+    font-size: 1em;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+
+.nameGenBox2{
+    float: right;
+    width: 250px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+
+.nameGenBox3{
+    float: left;
+    width: 180px;
+    font-size: 1em;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.nameGenBox4{
+    float: right;
+    width: 280px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.content11 {
+    width: 550px;
+    margin: 0px auto;
+}
+
+
+
+.formIputDescriptionRandomName{
+	color: #ffffff;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+
+.randomNameBox{
+    float: right;
+    width: 150px;
+    margin-right: 100px;
+    font-size: 0.85em;
+}
+
+
+
+/*ID*/
+
+
+
+.randomGenNameCheckBox{
+	color: #ffffff;
+    size: 1.1em;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+#generate_randomName {
+	background-image: url(../images/submit_character1.png);
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+	background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+#generate_randomName:hover {
+	background-image: url(../images/submit_name.png);
+}
+
+
+#reset_generatorName{
+	background-image: url(../images/reset_character1.png);
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+	background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#reset_generatorName:hover{
+	background-image: url(../images/reset_character2.png);
+
+}
+
+.text_link{
+	color: #ffffff;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+.text_link:hover{
+	color: #00c0ff;
+	text-decoration: none;
+}
+
+
+.bold{
+	font-weight: bold;
+}
