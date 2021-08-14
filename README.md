@@ -2,6 +2,45 @@
 The RPG character name generator is designed to create list of random names used for table-top role-playing games.  The generator is designed with PHP and utilizes Post-Methods send user input to generate data.
 
 
+---------------
+
+Live versions of the RPG character name generator are available on the following sites:
+
+Artifacts of the Ancient Ones:
+https://www.oldschooladventures.org/mcc/homebrew/nameGen/
+
+Dwarves, Warriors & Mighty Deeds:
+https://www.oldschooladventures.org/dcc/more/nameGen/
+
+Fantastic Adventure & the Disgruntled Gong Farmer:
+https://www.tasaka-games.com/dcc/more/nameGen/
+
+The Empire and the Elephant:
+https://www.oldschooladventures.org/east/more/nameGen/
+
+DCC Eastern Adventures:
+https://www.oldschooladventures.org/ea/more/nameGen/
+
+Dark Dungeons and Endless Adventures:
+https://www.oldschooladventures.org/basic/more/nameGen/
+
+Sorcery & Mighty Deeds:
+https://www.oldschooladventures.org/lankhmar/more/nameGen/
+
+Fantastic Medieval Adventures:
+https://www.oldschooladventures.org/whitebox/more/nameGen/
+
+Humble Beginnings and Bold Adventures:
+https://www.oldschooladventures.org/hero/more/nameGen/
+
+White Box: Eastern Adventures:
+https://www.tasaka-games.com/whitebox/more/nameGen/
+
+-------------
+
+Update 1.24: 2021-08-14
+
+Links for the live versions of the RPG name generator have beed added.
 
 Update 1.23: 2021-08-04
 
